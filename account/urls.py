@@ -4,7 +4,7 @@ from .views import (SignupView,
     ResendOTPView,
     LoginView,
     ForgetPasswordView,
-    ResetPasswordView
+    ResetPasswordView, VerifyForgetPasswordOTPView
 )
 
 urlpatterns = [
@@ -15,7 +15,7 @@ urlpatterns = [
 
     # Password reset
     path('forget-password/', ForgetPasswordView.as_view(), name='forget_password'),
-    # path('verify-forget-password-otp/', VerifyForgetPasswordOTPView.as_view(), name='verify_forget_password_otp'),
+    path('verify-forget-password-otp/', VerifyForgetPasswordOTPView.as_view(), name='verify_forget_password_otp'),
     path('reset-password/', ResetPasswordView.as_view(), name='reset_password'),
 
     # User profile

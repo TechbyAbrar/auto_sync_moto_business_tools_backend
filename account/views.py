@@ -103,6 +103,26 @@ class ForgetPasswordView(APIView):
         return error_response("Forget password failed", serializer.errors)
 
 
+
+class VerifyForgetPasswordOTPView(APIView):
+    permission_classes = [AllowAny]
+
+    @transaction.atomic
+    def post(self, request):
+        serializer = VerifyForgetPasswordOTPSerializer(data=request.data)
+        if serializer.is_valid():
+            user = serializer.context['user']
+
+            # Use the existing utility function to generate tokens
+            tokens = generate_tokens_for_user(user)
+
+            return success_response(
+                f"OTP verified successfully for {user.email}",
+                {"access_token": tokens["access"]}  # Only provide access token for reset
+            )
+
+        return error_response("OTP verification failed", serializer.errors)
+
 class ResetPasswordView(APIView):
     permission_classes = [IsAuthenticated]  # access token required
 
@@ -113,3 +133,4 @@ class ResetPasswordView(APIView):
             serializer.save()
             return success_response("Password reset successfully.")
         return error_response("Reset password failed", serializer.errors)
+
