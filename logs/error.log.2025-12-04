@@ -1,0 +1,118 @@
+ERROR 2025-12-04 04:58:45,104 django.security.DisallowedHost Invalid HTTP_HOST header: '10.10.12.111:8000'. You may need to add '10.10.12.111' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.10.12.111:8000'. You may need to add '10.10.12.111' to ALLOWED_HOSTS.
+ERROR 2025-12-04 04:58:45,104 django.security.DisallowedHost Invalid HTTP_HOST header: '10.10.12.111:8000'. You may need to add '10.10.12.111' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.10.12.111:8000'. You may need to add '10.10.12.111' to ALLOWED_HOSTS.
+ERROR 2025-12-04 04:59:56,354 django.request Internal Server Error: /v1/account/signup/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 27, in post
+    user = serializer.save()
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/serializers.py", line 97, in create
+    user = User(
+           ^^^^^
+TypeError: account.models.UserAuth() got multiple values for keyword argument 'email'
+ERROR 2025-12-04 04:59:56,354 django.request Internal Server Error: /v1/account/signup/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 27, in post
+    user = serializer.save()
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/serializers.py", line 97, in create
+    user = User(
+           ^^^^^
+TypeError: account.models.UserAuth() got multiple values for keyword argument 'email'
+ERROR 2025-12-04 04:59:56,379 django.server "POST /v1/account/signup/ HTTP/1.1" 500 117817
+ERROR 2025-12-04 04:59:56,379 django.server "POST /v1/account/signup/ HTTP/1.1" 500 117817
+ERROR 2025-12-04 05:12:38,344 account.utils API Error
+ERROR 2025-12-04 05:14:09,316 account.utils API Error
+ERROR 2025-12-04 05:14:48,328 account.utils API Error
+ERROR 2025-12-04 05:14:52,976 account.utils API Error
+ERROR 2025-12-04 05:18:34,204 account.utils API Error
+ERROR 2025-12-04 06:22:18,857 account.utils API Error
+ERROR 2025-12-04 06:22:37,129 account.utils API Error
+ERROR 2025-12-04 06:22:48,184 account.utils API Error

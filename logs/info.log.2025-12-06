@@ -1,0 +1,372 @@
+WARNING 2025-12-06 04:40:54,027 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:40:54,027 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:40:54,033 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 231
+WARNING 2025-12-06 04:40:54,033 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 231
+INFO 2025-12-06 04:44:29,789 unit.views RegisterUnit created: 1 by testadmin@gmail.com
+INFO 2025-12-06 04:44:29,839 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 313
+INFO 2025-12-06 04:44:29,839 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 313
+WARNING 2025-12-06 04:44:54,694 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:44:54,694 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:44:54,697 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 57
+WARNING 2025-12-06 04:44:54,697 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 57
+WARNING 2025-12-06 04:45:05,208 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:45:05,208 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:45:05,209 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 57
+WARNING 2025-12-06 04:45:05,209 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 57
+WARNING 2025-12-06 04:45:17,440 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:45:17,440 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 04:45:17,440 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 57
+WARNING 2025-12-06 04:45:17,440 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 57
+INFO 2025-12-06 04:45:30,873 unit.views RegisterUnit created: 2 by testadmin@gmail.com
+INFO 2025-12-06 04:45:31,415 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 313
+INFO 2025-12-06 04:45:31,415 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 313
+INFO 2025-12-06 04:45:47,232 django.server "GET /admin HTTP/1.1" 301 0
+INFO 2025-12-06 04:45:47,232 django.server "GET /admin HTTP/1.1" 301 0
+INFO 2025-12-06 04:45:51,413 django.server "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-06 04:45:51,413 django.server "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-06 04:45:51,742 django.server "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2025-12-06 04:45:51,742 django.server "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2025-12-06 04:45:51,806 django.server "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-12-06 04:45:51,807 django.server "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-12-06 04:45:51,807 django.server "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-12-06 04:45:51,806 django.server "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-12-06 04:45:51,807 django.server "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-12-06 04:45:51,807 django.server "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-12-06 04:45:51,809 django.server "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-12-06 04:45:51,809 django.server "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-12-06 04:45:51,812 django.server "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-12-06 04:45:51,812 django.server "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-12-06 04:45:51,828 django.server "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-06 04:45:51,828 django.server "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-06 04:45:51,894 django.server "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-06 04:45:51,894 django.server "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-06 04:45:51,917 django.server "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-12-06 04:45:51,917 django.server "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-12-06 04:45:51,950 django.server "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-12-06 04:45:51,950 django.server "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-12-06 04:45:52,076 django.request Not Found: /favicon.ico
+WARNING 2025-12-06 04:45:52,076 django.request Not Found: /favicon.ico
+WARNING 2025-12-06 04:45:52,077 django.server "GET /favicon.ico HTTP/1.1" 404 2511
+WARNING 2025-12-06 04:45:52,077 django.server "GET /favicon.ico HTTP/1.1" 404 2511
+INFO 2025-12-06 04:45:59,878 django.server "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-06 04:45:59,878 django.server "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-06 04:46:00,353 django.server "GET /admin/ HTTP/1.1" 200 6621
+INFO 2025-12-06 04:46:00,353 django.server "GET /admin/ HTTP/1.1" 200 6621
+INFO 2025-12-06 04:46:00,413 django.server "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-12-06 04:46:00,413 django.server "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-12-06 04:46:00,484 django.server "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-12-06 04:46:00,484 django.server "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-12-06 04:46:00,484 django.server "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-12-06 04:46:00,484 django.server "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-12-06 04:46:37,631 django.server "GET /admin/account/userauth/ HTTP/1.1" 200 14034
+INFO 2025-12-06 04:46:37,631 django.server "GET /admin/account/userauth/ HTTP/1.1" 200 14034
+INFO 2025-12-06 04:46:37,713 django.server "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-12-06 04:46:37,713 django.server "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-12-06 04:46:37,717 django.server "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-06 04:46:37,717 django.server "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-06 04:46:37,732 django.server "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-06 04:46:37,732 django.server "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-06 04:46:37,740 django.server "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-06 04:46:37,740 django.server "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-06 04:46:37,773 django.server "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-06 04:46:37,773 django.server "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-06 04:46:37,778 django.server "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-06 04:46:37,778 django.server "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-06 04:46:37,780 django.server "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-06 04:46:37,780 django.server "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-06 04:46:37,811 django.server "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-06 04:46:37,811 django.server "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-06 04:46:37,824 django.server "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-06 04:46:37,824 django.server "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-06 04:46:37,829 django.server "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-12-06 04:46:37,829 django.server "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-12-06 04:46:37,834 django.server "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-12-06 04:46:37,835 django.server "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-06 04:46:37,834 django.server "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-12-06 04:46:37,836 django.server "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-06 04:46:37,835 django.server "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-06 04:46:37,837 django.server "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-06 04:46:37,836 django.server "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-06 04:46:37,838 django.server "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-06 04:46:37,838 django.server "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-06 04:46:37,837 django.server "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-06 04:46:37,838 django.server "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-06 04:46:37,838 django.server "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-06 04:46:37,859 django.server "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-06 04:46:37,859 django.server "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-06 04:46:37,903 django.server "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-12-06 04:46:37,903 django.server "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-12-06 04:46:37,939 django.server "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-06 04:46:37,939 django.server "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-06 04:46:37,968 django.server "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-06 04:46:37,968 django.server "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-06 04:46:37,974 django.server "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-06 04:46:37,974 django.server "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-06 04:46:38,052 django.server "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-06 04:46:38,052 django.server "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-06 04:46:41,578 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:46:41,578 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:46:41,613 django.server "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-12-06 04:46:41,613 django.server "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-12-06 04:46:41,614 django.server "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-12-06 04:46:41,613 django.server "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-12-06 04:46:41,613 django.server "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-12-06 04:46:41,614 django.server "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-12-06 04:46:45,577 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:46:45,577 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:37,035 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/admin.py changed, reloading.
+INFO 2025-12-06 04:48:37,035 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/admin.py changed, reloading.
+INFO 2025-12-06 04:48:40,215 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 04:48:40,215 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 04:48:44,812 django.server "GET /admin/account/userauth/ HTTP/1.1" 200 14935
+INFO 2025-12-06 04:48:44,812 django.server "GET /admin/account/userauth/ HTTP/1.1" 200 14935
+INFO 2025-12-06 04:48:44,812 django.server "GET /admin/account/userauth/ HTTP/1.1" 200 14935
+INFO 2025-12-06 04:48:44,812 django.server "GET /admin/account/userauth/ HTTP/1.1" 200 14935
+INFO 2025-12-06 04:48:45,285 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:45,285 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:46,847 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:46,847 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:50,076 django.server "GET /admin/unit/registerunit/ HTTP/1.1" 200 14198
+INFO 2025-12-06 04:48:50,076 django.server "GET /admin/unit/registerunit/ HTTP/1.1" 200 14198
+INFO 2025-12-06 04:48:50,208 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:50,208 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:50,369 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:48:50,369 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:49:19,745 unit.views RegisterUnit created: 3 by testadmin@gmail.com
+INFO 2025-12-06 04:49:19,791 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 313
+INFO 2025-12-06 04:49:19,791 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 313
+INFO 2025-12-06 04:49:24,189 django.server "GET /admin/unit/registerunit/ HTTP/1.1" 200 14808
+INFO 2025-12-06 04:49:24,189 django.server "GET /admin/unit/registerunit/ HTTP/1.1" 200 14808
+INFO 2025-12-06 04:49:25,111 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-06 04:49:25,111 django.server "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-12-06 05:00:48,410 django.request Not Found: /v1/u
+WARNING 2025-12-06 05:00:48,410 django.request Not Found: /v1/u
+WARNING 2025-12-06 05:00:48,413 django.server "POST /v1/u HTTP/1.1" 404 2494
+WARNING 2025-12-06 05:00:48,413 django.server "POST /v1/u HTTP/1.1" 404 2494
+INFO 2025-12-06 05:01:10,054 django.server "GET /v1/unit/register-units/ HTTP/1.1" 200 943
+INFO 2025-12-06 05:01:10,054 django.server "GET /v1/unit/register-units/ HTTP/1.1" 200 943
+WARNING 2025-12-06 05:01:46,984 django.request Unauthorized: /v1/unit/register-units/1/
+WARNING 2025-12-06 05:01:46,984 django.request Unauthorized: /v1/unit/register-units/1/
+WARNING 2025-12-06 05:01:46,986 django.server "GET /v1/unit/register-units/1/ HTTP/1.1" 401 58
+WARNING 2025-12-06 05:01:46,986 django.server "GET /v1/unit/register-units/1/ HTTP/1.1" 401 58
+INFO 2025-12-06 05:01:52,617 django.server "GET /v1/unit/register-units/1/ HTTP/1.1" 200 313
+INFO 2025-12-06 05:01:52,617 django.server "GET /v1/unit/register-units/1/ HTTP/1.1" 200 313
+WARNING 2025-12-06 05:02:52,891 django.request Unauthorized: /v1/unit/register-units/1/
+WARNING 2025-12-06 05:02:52,891 django.request Unauthorized: /v1/unit/register-units/1/
+WARNING 2025-12-06 05:02:52,893 django.server "POST /v1/unit/register-units/1/ HTTP/1.1" 401 58
+WARNING 2025-12-06 05:02:52,893 django.server "POST /v1/unit/register-units/1/ HTTP/1.1" 401 58
+WARNING 2025-12-06 05:02:53,026 django.request Unauthorized: /v1/unit/register-units/1/
+WARNING 2025-12-06 05:02:53,026 django.request Unauthorized: /v1/unit/register-units/1/
+WARNING 2025-12-06 05:02:53,029 django.server "POST /v1/unit/register-units/1/ HTTP/1.1" 401 58
+WARNING 2025-12-06 05:02:53,029 django.server "POST /v1/unit/register-units/1/ HTTP/1.1" 401 58
+WARNING 2025-12-06 05:10:28,222 django.request Unauthorized: /v1/unit/register-units/1/update/
+WARNING 2025-12-06 05:10:28,222 django.request Unauthorized: /v1/unit/register-units/1/update/
+WARNING 2025-12-06 05:10:28,226 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 401 58
+WARNING 2025-12-06 05:10:28,226 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 401 58
+INFO 2025-12-06 05:10:41,890 unit.views RegisterUnit updated: 1 by testadmin@gmail.com
+INFO 2025-12-06 05:10:41,945 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 200 313
+INFO 2025-12-06 05:10:41,945 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 200 313
+INFO 2025-12-06 05:26:11,078 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 05:26:11,078 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 05:26:25,504 unit.views RegisterUnit created: 4 by testadmin@gmail.com
+INFO 2025-12-06 05:26:25,557 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 359
+INFO 2025-12-06 05:26:25,557 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 359
+INFO 2025-12-06 06:11:39,328 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:11:39,328 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:11:43,023 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:11:43,023 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:11:54,279 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:11:54,279 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:11:57,640 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:11:57,640 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:12:10,844 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:12:10,844 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:12:14,006 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:12:14,006 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:12:22,097 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:12:22,097 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:12:25,218 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:12:25,218 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:12:37,319 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:12:37,319 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:12:40,653 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:12:40,653 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:13:02,751 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:13:02,751 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:13:14,596 account.utils API Success
+INFO 2025-12-06 06:13:14,597 django.server "GET /v1/unit/register-units/ HTTP/1.1" 200 1387
+INFO 2025-12-06 06:13:14,597 django.server "GET /v1/unit/register-units/ HTTP/1.1" 200 1387
+ERROR 2025-12-06 06:13:28,868 django.request Internal Server Error: /v1/unit/register-units/create/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 32, in post
+    logger.info("RegisterUnit created", extra={"unit_id": instance.id, "user": request.user.id})
+                                                                               ^^^^^^^^^^^^^^^
+AttributeError: 'UserAuth' object has no attribute 'id'
+ERROR 2025-12-06 06:13:28,868 django.request Internal Server Error: /v1/unit/register-units/create/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 32, in post
+    logger.info("RegisterUnit created", extra={"unit_id": instance.id, "user": request.user.id})
+                                                                               ^^^^^^^^^^^^^^^
+AttributeError: 'UserAuth' object has no attribute 'id'
+ERROR 2025-12-06 06:13:28,896 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 500 103783
+ERROR 2025-12-06 06:13:28,896 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 500 103783
+INFO 2025-12-06 06:13:54,297 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:13:54,297 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:13:57,447 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:13:57,447 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:14:02,025 unit.views RegisterUnit created
+INFO 2025-12-06 06:14:02,026 account.utils API Success
+INFO 2025-12-06 06:14:02,075 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 438
+INFO 2025-12-06 06:14:02,075 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 438
+INFO 2025-12-06 06:14:09,492 account.utils API Success
+INFO 2025-12-06 06:14:09,493 django.server "GET /v1/unit/register-units/1/ HTTP/1.1" 200 386
+INFO 2025-12-06 06:14:09,493 django.server "GET /v1/unit/register-units/1/ HTTP/1.1" 200 386
+ERROR 2025-12-06 06:14:21,856 django.request Internal Server Error: /v1/unit/register-units/1/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 115, in patch
+    logger.info("RegisterUnit updated", extra={"unit_id": instance.id, "user": request.user.id})
+                                                                               ^^^^^^^^^^^^^^^
+AttributeError: 'UserAuth' object has no attribute 'id'
+ERROR 2025-12-06 06:14:21,856 django.request Internal Server Error: /v1/unit/register-units/1/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 115, in patch
+    logger.info("RegisterUnit updated", extra={"unit_id": instance.id, "user": request.user.id})
+                                                                               ^^^^^^^^^^^^^^^
+AttributeError: 'UserAuth' object has no attribute 'id'
+ERROR 2025-12-06 06:14:21,886 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 500 102318
+ERROR 2025-12-06 06:14:21,886 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 500 102318
+INFO 2025-12-06 06:14:34,302 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:14:34,302 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:14:37,501 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:14:37,501 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:14:44,658 unit.views RegisterUnit updated
+INFO 2025-12-06 06:14:44,658 account.utils API Success
+INFO 2025-12-06 06:14:44,707 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 200 384
+INFO 2025-12-06 06:14:44,707 django.server "PATCH /v1/unit/register-units/1/update/ HTTP/1.1" 200 384
+INFO 2025-12-06 06:15:01,506 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:15:01,506 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py changed, reloading.
+INFO 2025-12-06 06:15:04,600 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 06:15:04,600 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:16:47,957 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/core/settings.py changed, reloading.
+INFO 2025-12-06 09:16:47,957 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/core/settings.py changed, reloading.
+INFO 2025-12-06 09:16:54,847 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:16:54,847 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:17:11,174 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/core/urls.py changed, reloading.
+INFO 2025-12-06 09:17:11,174 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/core/urls.py changed, reloading.
+INFO 2025-12-06 09:17:14,163 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:17:14,163 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:17:26,595 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/core/urls.py changed, reloading.
+INFO 2025-12-06 09:17:26,595 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/core/urls.py changed, reloading.
+INFO 2025-12-06 09:17:29,790 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:17:29,790 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:18:39,664 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2025-12-06 09:18:39,664 django.utils.autoreload Watching for file changes with StatReloader
+ERROR 2025-12-06 11:00:43,206 account.utils API Error
+WARNING 2025-12-06 11:00:43,254 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 11:00:43,254 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-06 11:00:43,255 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 114
+WARNING 2025-12-06 11:00:43,255 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 400 114
+INFO 2025-12-06 11:00:54,737 unit.views RegisterUnit created
+INFO 2025-12-06 11:00:54,740 account.utils API Success
+INFO 2025-12-06 11:00:54,788 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 436
+INFO 2025-12-06 11:00:54,788 django.server "POST /v1/unit/register-units/create/ HTTP/1.1" 201 436
