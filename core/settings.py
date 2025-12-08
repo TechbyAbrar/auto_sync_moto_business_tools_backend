@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Third-party
+    "channels",
     "rest_framework",
     "corsheaders",
     
@@ -52,6 +53,7 @@ INSTALLED_APPS = [
     'account',
     'unit',
     'privacy',
+    'chatapp',
 ]
 
 # Custom user model
@@ -84,8 +86,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'core.wsgi.application'
+# WSGI_APPLICATION = 'core.wsgi.application'
 
+ASGI_APPLICATION = "core.asgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
@@ -263,6 +266,17 @@ LOGGING = {
             'handlers': ['console', 'info_file', 'error_file'],
             'level': 'DEBUG',
             'propagate': True,
+        },
+    },
+}
+
+
+# channgel configuration
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("localhost", 6379)],
         },
     },
 }
