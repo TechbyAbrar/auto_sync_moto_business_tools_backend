@@ -7,9 +7,10 @@ from rest_framework import status, generics
 from rest_framework.views import APIView
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.exceptions import ValidationError, NotFound
+from rest_framework.permissions import IsAuthenticated
 
-from .models import RegisterUnit, ScheduleService
-from .serializers import RegisterUnitSerializer, ScheduleServiceSerializer
+from .models import RegisterUnit, ScheduleService, SellUnit
+from .serializers import RegisterUnitSerializer, ScheduleServiceSerializer, SellUnitSerializer
 from account.utils import success_response, error_response
 
 logger = logging.getLogger(__name__)
@@ -240,3 +241,72 @@ class ScheduleServiceDetailAPIView(APIView):
             return success_response(data=serializer.data, message="Service partially updated")
         logger.error(f"ScheduleService partial update failed: {serializer.errors}")
         return error_response(errors=serializer.errors, message="Service partial update failed", status_code=status.HTTP_400_BAD_REQUEST)
+
+
+
+# sell unit views
+
+SELL_UNIT_CACHE_KEY = "sell_units_list"
+SELL_UNIT_CACHE_TIMEOUT = 60 * 5  # 5 minutes
+
+class SellUnitCreateView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    @transaction.atomic
+    def post(self, request):
+        serializer = SellUnitSerializer(data=request.data, context={"request": request})
+        serializer.is_valid(raise_exception=True)
+
+        sell_unit = serializer.save(seller=request.user)
+        logger.info(f"SellUnit created with ID: {sell_unit.id} by User: {request.user.user_id}")
+
+        cache.delete(SELL_UNIT_CACHE_KEY)
+
+        return success_response(
+            message="Unit listed for sale successfully.",
+            data=SellUnitSerializer(sell_unit).data,
+            status_code=status.HTTP_201_CREATED
+        )
+
+    def get(self, request):
+        # Try to get cached data
+        cached_data = cache.get(SELL_UNIT_CACHE_KEY)
+
+        if cached_data:
+            return success_response(
+                message="Sell units retrieved successfully (cached).",
+                data=cached_data,
+                status_code=status.HTTP_200_OK
+            )
+
+        # Not cached → fetch from DB
+        queryset = SellUnit.objects.select_related("unit", "seller").order_by("-created_at")
+        serializer = SellUnitSerializer(queryset, many=True)
+
+        # Store in Redis
+        cache.set(SELL_UNIT_CACHE_KEY, serializer.data, SELL_UNIT_CACHE_TIMEOUT)
+
+        return success_response(
+            message="Sell units retrieved successfully.",
+            data=serializer.data,
+            status_code=status.HTTP_200_OK
+        )
+
+class SellUnitDetailAPIView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, pk):
+        try:
+            sell_unit = SellUnit.objects.select_related("unit", "seller").get(pk=pk)
+        except SellUnit.DoesNotExist:
+            return error_response(
+                message="Sell unit not found.",
+                status_code=status.HTTP_404_NOT_FOUND
+            )
+
+        serializer = SellUnitSerializer(sell_unit)
+        return success_response(
+            message="Sell unit retrieved successfully.",
+            data=serializer.data,
+            status_code=status.HTTP_200_OK
+        )

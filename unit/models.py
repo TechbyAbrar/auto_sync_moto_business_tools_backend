@@ -68,3 +68,32 @@ class ScheduleService(models.Model):
 
     def __str__(self):
         return f"Service for {self.unit} on {self.appointment_date}"
+
+
+# sell
+
+class SellUnit(models.Model):
+    unit = models.ForeignKey(
+        RegisterUnit,
+        on_delete=models.CASCADE,
+        related_name="sell_listings"
+    )
+
+    seller = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name="units_for_sale"
+    )
+
+    additional_details = models.TextField(blank=True, null=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+        verbose_name = "Sell Unit"
+        verbose_name_plural = "Sell Units"
+
+    def __str__(self):
+        return f"{self.unit} for sale by {self.seller}"

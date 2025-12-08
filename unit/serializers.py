@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import RegisterUnit, ScheduleService
+from .models import RegisterUnit, ScheduleService, SellUnit
 
 
 class RegisterUnitSerializer(serializers.ModelSerializer):
@@ -28,7 +28,7 @@ class RegisterUnitSerializer(serializers.ModelSerializer):
 
         return super().create(validated_data)
 
-
+# services
 class ScheduleServiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = ScheduleService
@@ -43,3 +43,22 @@ class ScheduleServiceSerializer(serializers.ModelSerializer):
             "updated_at",
         ]
         read_only_fields = ["id", "created_at", "updated_at"]
+
+
+# sell unit
+class SellUnitSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SellUnit
+        fields = ["id", "unit", "seller", "additional_details", "created_at", "updated_at"]
+        read_only_fields = ["id", "seller", "created_at", "updated_at"]
+
+    def validate_unit(self, unit):
+        request = self.context["request"]
+
+        if unit.registrar != request.user:
+            raise serializers.ValidationError("You cannot sell a unit you do not own.")
+
+        if SellUnit.objects.filter(unit=unit, seller=request.user).exists():
+            raise serializers.ValidationError("You already listed this unit for sale.")
+
+        return unit

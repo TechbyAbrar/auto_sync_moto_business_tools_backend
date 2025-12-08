@@ -4,7 +4,7 @@ from .views import (
     RegisterUnitListAPIView,
     RegisterUnitRetrieveAPIView,
     RegisterUnitUpdateAPIView,
-    RegisterUnitDeleteAPIView, ScheduleServiceListCreateAPIView, ScheduleServiceDetailAPIView
+    RegisterUnitDeleteAPIView, ScheduleServiceListCreateAPIView, ScheduleServiceDetailAPIView, SellUnitCreateView, SellUnitDetailAPIView
 )
 
 urlpatterns = [
@@ -16,4 +16,8 @@ urlpatterns = [
     #services
     path("services/", ScheduleServiceListCreateAPIView.as_view(), name="service-list-create"),
     path("services/<int:pk>/", ScheduleServiceDetailAPIView.as_view(), name="service-detail"),
+    
+    # sell unit
+    path("sell-units/", SellUnitCreateView.as_view(), name="sell-unit-list-create"),
+    path("sell-units/<int:pk>/", SellUnitDetailAPIView.as_view(), name="sell-unit-detail"),
 ]
