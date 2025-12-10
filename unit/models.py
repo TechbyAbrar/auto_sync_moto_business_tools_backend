@@ -17,8 +17,11 @@ class RegisterUnit(models.Model):
 
     brand = models.CharField(max_length=50)
     model = models.CharField(max_length=50)
+    color = models.CharField(max_length=30, null=True, blank=True)
 
-    year = models.PositiveSmallIntegerField()  # Better than PositiveIntegerField
+    year = models.PositiveSmallIntegerField()
+    
+    
 
     purchase_date = models.DateField()
 

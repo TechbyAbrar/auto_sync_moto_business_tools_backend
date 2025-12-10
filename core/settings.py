@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'unit',
     'privacy',
     'chatapp',
+    'dashboard',
 ]
 
 # Custom user model

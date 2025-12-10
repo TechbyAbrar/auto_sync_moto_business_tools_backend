@@ -2,7 +2,8 @@ from django.db import transaction
 from django.contrib.auth import get_user_model
 
 from rest_framework import status
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
+from .models import UserAuth
 from rest_framework.views import APIView
 from .permissions import IsSuperUserOrReadOnly
 from .serializers import (
@@ -13,9 +14,10 @@ from .serializers import (
     ForgetPasswordSerializer,
     ResetPasswordSerializer,
     UserSerializer,
-    VerifyForgetPasswordOTPSerializer,
+    VerifyForgetPasswordOTPSerializer, UserProfileUpdateSerializer
 )
 from .utils import generate_tokens_for_user, success_response, error_response
+from rest_framework.parsers import JSONParser, MultiPartParser, FormParser
 
 class SignupView(APIView):
     permission_classes = [AllowAny]
@@ -134,3 +136,38 @@ class ResetPasswordView(APIView):
             return success_response("Password reset successfully.")
         return error_response("Reset password failed", serializer.errors)
 
+
+
+class UserProfileUpdateAPIView(APIView):
+    permission_classes = [IsAuthenticated, IsAdminUser]
+    parser_classes = [JSONParser, MultiPartParser, FormParser]
+
+    def get_object(self, user_id):
+        # Use only() to load only required fields for update
+        try:
+            return UserAuth.objects.only(
+                "user_id", "first_name", "last_name", "email",
+                "username", "profile_pic", "dob", "phone", "address", "zip_code"
+            ).get(user_id=user_id)
+        except UserAuth.DoesNotExist:
+            return None
+
+    @transaction.atomic  # ensures atomic update
+    def patch(self, request, user_id):
+        user = self.get_object(user_id)
+        if not user:
+            return error_response(message="User not found.", status_code=404)
+
+        # Only admin or the user themselves can update
+        if request.user != user and not request.user.is_staff:
+            return error_response(message="You do not have permission to update this user.", status_code=403)
+
+        serializer = UserProfileUpdateSerializer(user, data=request.data, partial=True)
+        if serializer.is_valid():
+            # Use update() to avoid extra save overhead for simple fields
+            serializer.save()
+            # Refresh from DB to get updated fields if needed
+            user.refresh_from_db()
+            return success_response(message="Profile updated successfully", data=serializer.data)
+
+        return error_response(message="Validation errors", data=serializer.errors, status_code=400)

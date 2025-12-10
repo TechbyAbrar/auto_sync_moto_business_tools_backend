@@ -181,7 +181,6 @@ class ScheduleServiceListCreateAPIView(APIView, PageNumberPagination):
     page_size = 10
 
     def get(self, request):
-        """Get all services with pagination and caching"""
         cache_key = "all_services_page_" + str(request.query_params.get("page", 1))
         cached_data = cache.get(cache_key)
         if cached_data:
@@ -195,7 +194,6 @@ class ScheduleServiceListCreateAPIView(APIView, PageNumberPagination):
 
     @transaction.atomic
     def post(self, request):
-        """Create a new service"""
         serializer = ScheduleServiceSerializer(data=request.data)
         if serializer.is_valid():
             service = serializer.save()

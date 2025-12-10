@@ -21,10 +21,17 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('v1/account/', include('account.urls')),
-    path('v1/unit/', include('unit.urls')),
-    path('v1/privacy/', include('privacy.urls')),
+    path('v1/', include([
+        path('account/', include('account.urls')),
+        path('unit/', include('unit.urls')),
+        path('privacy/', include('privacy.urls')),
+        path('chat/', include('chatapp.urls')),
+        path('dashboard/', include('dashboard.urls')),
+    ])),
 ]
+
+# Group versioning under one router
+# This avoids repeating v1 everywhere.
 
 # Serve static and media only in development
 if settings.DEBUG:

@@ -5,7 +5,7 @@ from django.db import transaction
 from django.contrib.auth import get_user_model
 from django.contrib.auth import authenticate
 User = get_user_model()
-
+from .models import UserAuth 
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -60,9 +60,34 @@ class UserSerializer(serializers.ModelSerializer):
         instance.updated_at = timezone.now()
         instance.save()
         return instance
-    
 
 
+
+# update profile
+class UserProfileUpdateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserAuth
+        fields = [
+            "first_name",
+            "last_name",
+            "email",
+            "username",
+            "profile_pic",
+            "dob",
+            "phone",
+            "address",
+            "zip_code",
+        ]
+        extra_kwargs = {
+            "email": {"required": True},
+            "username": {"required": False, "allow_blank": True},
+        }
+
+    def validate_email(self, value):
+        user = self.instance
+        if UserAuth.objects.exclude(user_id=user.user_id).filter(email=value).exists():
+            raise serializers.ValidationError("This email is already in use.")
+        return value
 
 class SignupSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
@@ -234,3 +259,5 @@ class VerifyForgetPasswordOTPSerializer(serializers.Serializer):
 
         self.context['user'] = user
         return value
+
+

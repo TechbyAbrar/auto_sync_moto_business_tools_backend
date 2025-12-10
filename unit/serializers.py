@@ -28,29 +28,63 @@ class RegisterUnitSerializer(serializers.ModelSerializer):
 
         return super().create(validated_data)
 
-# services
+
 class ScheduleServiceSerializer(serializers.ModelSerializer):
+    full_name = serializers.SerializerMethodField()
+    email = serializers.SerializerMethodField()
+    model_name = serializers.CharField(source="unit.model", read_only=True)
+    date = serializers.DateField(source="appointment_date", read_only=True)
+
     class Meta:
         model = ScheduleService
         fields = [
             "id",
-            "unit",
-            "details",
+            "full_name",
+            "email",
+            "model_name",
             "location",
-            "appointment_date",
+            "date",
+            "details",
             "has_serviced_before",
             "created_at",
             "updated_at",
         ]
         read_only_fields = ["id", "created_at", "updated_at"]
 
+    def get_full_name(self, obj):
+        return obj.unit.registrar.get_full_name()
+
+    def get_email(self, obj):
+        return obj.unit.registrar.email
 
 # sell unit
 class SellUnitSerializer(serializers.ModelSerializer):
+    full_name = serializers.SerializerMethodField()
+    email = serializers.SerializerMethodField()
+    model_name = serializers.CharField(source="unit.model", read_only=True)
+    year = serializers.IntegerField(source="unit.year", read_only=True)
+    color = serializers.CharField(source="unit.color", read_only=True)  # Make sure RegisterUnit has a color field
+
     class Meta:
         model = SellUnit
-        fields = ["id", "unit", "seller", "additional_details", "created_at", "updated_at"]
-        read_only_fields = ["id", "seller", "created_at", "updated_at"]
+        fields = [
+            "id",
+            "full_name",
+            "email",
+            "model_name",
+            "year",
+            "color",
+            "additional_details",
+            "created_at",
+            "updated_at",
+        ]
+        read_only_fields = ["id", "full_name", "email", "model_name", "year", "color", "created_at", "updated_at"]
+
+    def get_full_name(self, obj):
+        return obj.seller.get_full_name()
+
+    def get_email(self, obj):
+        return obj.seller.email
 
     def validate_unit(self, unit):
         request = self.context["request"]
