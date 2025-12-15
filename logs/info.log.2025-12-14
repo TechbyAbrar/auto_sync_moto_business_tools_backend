@@ -1,0 +1,13 @@
+INFO 2025-12-15 04:39:31,091 chatapp WS connected: user=1 room=1
+INFO 2025-12-15 04:40:47,477 chatapp WS connected: user=1 room=1
+INFO 2025-12-15 04:44:02,119 chatapp WS disconnected: user=1 room=1
+INFO 2025-12-15 04:46:04,302 chatapp WS connected: user=1 room=1
+INFO 2025-12-15 04:48:08,051 account.utils API Success
+INFO 2025-12-15 04:49:57,241 chatapp WS disconnected: user=1 room=1
+WARNING 2025-12-15 04:50:05,926 chatapp WS rejected: user 3 no permission for room 1
+WARNING 2025-12-15 04:50:19,829 chatapp WS rejected: user 3 no permission for room 1
+INFO 2025-12-15 04:50:36,290 chatapp WS connected: user=3 room=2
+INFO 2025-12-15 04:51:55,023 account.utils API Success
+INFO 2025-12-15 04:52:23,194 chatapp WS disconnected: user=3 room=2
+INFO 2025-12-15 04:52:30,888 chatapp WS connected: user=1 room=2
+INFO 2025-12-15 05:29:31,998 chatapp WS disconnected: user=1 room=2
