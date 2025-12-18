@@ -1,37 +1,3 @@
-INFO 2025-12-14 06:09:18,895 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:09:18,895 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:09:34,711 django.server "GET /v1/chat/rooms/ HTTP/1.1" 200 52
-INFO 2025-12-14 06:09:34,711 django.server "GET /v1/chat/rooms/ HTTP/1.1" 200 52
-WARNING 2025-12-14 06:09:42,008 django.request Not Found: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 06:09:42,008 django.request Not Found: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 06:09:42,008 django.server "GET /v1/chat/rooms/1/messages/ HTTP/1.1" 404 49
-WARNING 2025-12-14 06:09:42,008 django.server "GET /v1/chat/rooms/1/messages/ HTTP/1.1" 404 49
-INFO 2025-12-14 06:09:49,450 django.server "GET /v1/chat/rooms/ HTTP/1.1" 200 52
-INFO 2025-12-14 06:09:49,450 django.server "GET /v1/chat/rooms/ HTTP/1.1" 200 52
-WARNING 2025-12-14 06:10:37,242 django.request Not Found: /v1/chat/messages/send/
-WARNING 2025-12-14 06:10:37,242 django.request Not Found: /v1/chat/messages/send/
-WARNING 2025-12-14 06:10:37,243 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 404 49
-WARNING 2025-12-14 06:10:37,243 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 404 49
-WARNING 2025-12-14 06:11:08,836 django.request Not Found: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 06:11:08,836 django.request Not Found: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 06:11:08,837 django.server "GET /v1/chat/rooms/1/messages/ HTTP/1.1" 404 49
-WARNING 2025-12-14 06:11:08,837 django.server "GET /v1/chat/rooms/1/messages/ HTTP/1.1" 404 49
-INFO 2025-12-14 06:15:15,877 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:15,877 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:19,205 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:19,205 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:30,785 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:30,785 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:34,258 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:34,258 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:40,492 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:40,492 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:44,514 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:44,514 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:55,967 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:55,967 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:15:59,467 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:15:59,467 django.utils.autoreload Watching for file changes with StatReloader
 ERROR 2025-12-14 06:18:54,092 django.request Internal Server Error: /v1/chat/messages/send/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -96,10 +62,6 @@ Traceback (most recent call last):
 AttributeError: 'str' object has no attribute 'objects'
 ERROR 2025-12-14 06:18:54,120 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 500 101522
 ERROR 2025-12-14 06:18:54,120 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 500 101522
-INFO 2025-12-14 06:20:11,331 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:20:11,331 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:20:15,201 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:20:15,201 django.utils.autoreload Watching for file changes with StatReloader
 ERROR 2025-12-14 06:20:23,502 django.request Internal Server Error: /v1/chat/messages/send/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -228,10 +190,6 @@ Traceback (most recent call last):
 AttributeError: 'str' object has no attribute 'objects'
 ERROR 2025-12-14 06:20:29,928 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 500 101501
 ERROR 2025-12-14 06:20:29,928 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 500 101501
-INFO 2025-12-14 06:21:35,200 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:21:35,200 django.utils.autoreload /mnt/c/Users/abrah/OneDrive/official_projects/j4corp/chatapp/views.py changed, reloading.
-INFO 2025-12-14 06:21:38,641 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:21:38,641 django.utils.autoreload Watching for file changes with StatReloader
 ERROR 2025-12-14 06:21:42,828 django.request Internal Server Error: /v1/chat/messages/send/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/redis/asyncio/connection.py", line 305, in connect_check_health
@@ -398,89 +356,6 @@ Traceback (most recent call last):
 redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connect call failed ('127.0.0.1', 6379).
 ERROR 2025-12-14 06:21:42,896 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 500 184504
 ERROR 2025-12-14 06:21:42,896 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 500 184504
-INFO 2025-12-14 06:27:51,148 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:27:51,148 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:29:06,867 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 201 136
-INFO 2025-12-14 06:29:06,867 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 201 136
-INFO 2025-12-14 06:29:13,538 django.server "GET /v1/chat/rooms/ HTTP/1.1" 200 345
-INFO 2025-12-14 06:29:13,538 django.server "GET /v1/chat/rooms/ HTTP/1.1" 200 345
-INFO 2025-12-14 06:29:19,498 django.server "GET /v1/chat/rooms/1/messages/ HTTP/1.1" 200 188
-INFO 2025-12-14 06:29:19,498 django.server "GET /v1/chat/rooms/1/messages/ HTTP/1.1" 200 188
-INFO 2025-12-14 06:29:47,053 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 201 163
-INFO 2025-12-14 06:29:47,053 django.server "POST /v1/chat/messages/send/ HTTP/1.1" 201 163
-WARNING 2025-12-14 06:33:26,739 django.request Not Found: /chat/ws/chat/1/
-WARNING 2025-12-14 06:33:26,739 django.request Not Found: /chat/ws/chat/1/
-WARNING 2025-12-14 06:33:26,740 django.server "GET /chat/ws/chat/1/ HTTP/1.1" 404 2706
-WARNING 2025-12-14 06:33:26,740 django.server "GET /chat/ws/chat/1/ HTTP/1.1" 404 2706
-INFO 2025-12-14 06:35:30,180 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 06:35:30,180 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 08:21:24,395 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 08:21:24,395 django.utils.autoreload Watching for file changes with StatReloader
-INFO 2025-12-14 08:35:36,289 account.utils API Success
-INFO 2025-12-14 08:48:22,414 chatapp WS connected user=1 room=1
-WARNING 2025-12-14 08:49:42,325 django.request Not Found: /static/admin/css/base.css
-WARNING 2025-12-14 08:49:42,325 django.request Not Found: /static/admin/css/base.css
-WARNING 2025-12-14 08:49:42,351 django.request Not Found: /static/admin/css/dark_mode.css
-WARNING 2025-12-14 08:49:42,351 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:42,351 django.request Not Found: /static/admin/css/dark_mode.css
-WARNING 2025-12-14 08:49:42,351 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:42,368 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:42,368 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:42,389 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:42,389 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:42,441 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:42,441 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:42,441 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:42,441 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:42,454 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:42,454 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:42,586 django.request Not Found: /static/admin/css/dashboard.css
-WARNING 2025-12-14 08:49:42,586 django.request Not Found: /static/admin/css/dashboard.css
-WARNING 2025-12-14 08:49:42,816 django.request Not Found: /static/admin/css/nav_sidebar.css
-WARNING 2025-12-14 08:49:42,816 django.request Not Found: /static/admin/css/nav_sidebar.css
-WARNING 2025-12-14 08:49:42,983 django.request Not Found: /favicon.ico
-WARNING 2025-12-14 08:49:42,983 django.request Not Found: /favicon.ico
-WARNING 2025-12-14 08:49:45,429 django.request Not Found: /static/admin/css/dark_mode.css
-WARNING 2025-12-14 08:49:45,429 django.request Not Found: /static/admin/css/dashboard.css
-WARNING 2025-12-14 08:49:45,427 django.request Not Found: /static/admin/css/base.css
-WARNING 2025-12-14 08:49:45,429 django.request Not Found: /static/admin/css/dark_mode.css
-WARNING 2025-12-14 08:49:45,427 django.request Not Found: /static/admin/css/base.css
-WARNING 2025-12-14 08:49:45,429 django.request Not Found: /static/admin/css/dashboard.css
-WARNING 2025-12-14 08:49:45,435 django.request Not Found: /static/admin/css/nav_sidebar.css
-WARNING 2025-12-14 08:49:45,435 django.request Not Found: /static/admin/css/nav_sidebar.css
-WARNING 2025-12-14 08:49:45,437 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:45,437 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:45,464 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:45,464 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:45,477 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:45,477 django.request Not Found: /static/admin/js/nav_sidebar.js
-WARNING 2025-12-14 08:49:45,911 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:45,911 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:45,924 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:45,924 django.request Not Found: /static/admin/js/theme.js
-WARNING 2025-12-14 08:49:45,925 django.request Not Found: /static/admin/css/nav_sidebar.css
-WARNING 2025-12-14 08:49:45,925 django.request Not Found: /static/admin/css/nav_sidebar.css
-WARNING 2025-12-14 08:49:45,928 django.request Not Found: /static/admin/css/responsive.css
-WARNING 2025-12-14 08:49:45,928 django.request Not Found: /static/admin/css/dashboard.css
-WARNING 2025-12-14 08:49:45,928 django.request Not Found: /static/admin/css/dashboard.css
-WARNING 2025-12-14 08:49:45,928 django.request Not Found: /static/admin/css/responsive.css
-INFO 2025-12-14 08:52:38,957 account.utils API Success
-WARNING 2025-12-14 08:53:21,351 chatapp WS rejected: permission denied
-WARNING 2025-12-14 08:53:27,238 chatapp WS rejected: permission denied
-WARNING 2025-12-14 08:54:08,352 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 08:54:08,352 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 08:56:10,426 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 08:56:10,426 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 08:56:19,353 chatapp WS rejected: permission denied
-INFO 2025-12-14 08:57:59,075 chatapp WS connected user=1 room=1
-INFO 2025-12-14 09:04:56,041 account.utils API Success
-WARNING 2025-12-14 09:05:22,202 django.request Forbidden: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 09:05:22,202 django.request Forbidden: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 09:05:41,861 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 09:05:41,861 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 09:09:38,594 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 09:09:38,594 django.request Forbidden: /v1/chat/messages/send/
-INFO 2025-12-14 09:18:34,678 account.utils API Success
 ERROR 2025-12-14 09:18:59,858 django.request Internal Server Error: /v1/chat/messages/send/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
@@ -657,11 +532,6 @@ Traceback (most recent call last):
     if not (user.is_staff or room.user_id == user.user_id or room.staff_id == user.user_id):
                                              ^^^^^^^
 AttributeError: 'UserAuth' object has no attribute 'id'
-WARNING 2025-12-14 11:07:04,413 django.request Bad Request: /v1/chat/rooms/create/
-WARNING 2025-12-14 11:07:04,413 django.request Bad Request: /v1/chat/rooms/create/
-INFO 2025-12-14 11:07:34,651 account.utils API Success
-WARNING 2025-12-14 11:07:46,144 django.request Unauthorized: /v1/chat/rooms/create/
-WARNING 2025-12-14 11:07:46,144 django.request Unauthorized: /v1/chat/rooms/create/
 ERROR 2025-12-14 11:08:49,780 django.request Internal Server Error: /v1/chat/rooms/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
@@ -1278,8 +1148,6 @@ Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1505, in _filter_or_exclude
     raise TypeError("Cannot filter a query once a slice has been taken.")
 TypeError: Cannot filter a query once a slice has been taken.
-WARNING 2025-12-14 11:14:45,477 django.request Bad Request: /v1/chat/rooms/create/
-WARNING 2025-12-14 11:14:45,477 django.request Bad Request: /v1/chat/rooms/create/
 ERROR 2025-12-14 11:15:16,164 django.request Internal Server Error: /v1/chat/rooms/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
@@ -1752,8 +1620,6 @@ Traceback (most recent call last):
     cache_key = f"chat:rooms:user:{user.user_id}:page:{page}"
                                    ^^^^^^^
 AttributeError: 'UserAuth' object has no attribute 'id'
-WARNING 2025-12-14 11:19:08,130 django.request Forbidden: /v1/chat/rooms/1/unread-count/
-WARNING 2025-12-14 11:19:08,130 django.request Forbidden: /v1/chat/rooms/1/unread-count/
 ERROR 2025-12-14 11:33:01,114 django.request Internal Server Error: /v1/chat/rooms/
 Traceback (most recent call last):
   File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
@@ -1836,43 +1702,5 @@ Traceback (most recent call last):
     cache_key = f"chat:rooms:user:{user.user_id}:page:{page}"
                                    ^^^^^^^
 AttributeError: 'UserAuth' object has no attribute 'id'
-WARNING 2025-12-14 11:35:39,914 django.request Not Found: /v1/chat/rooms/<int:room_id>/messages/
-WARNING 2025-12-14 11:35:39,914 django.request Not Found: /v1/chat/rooms/<int:room_id>/messages/
-WARNING 2025-12-14 11:35:49,542 django.request Forbidden: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 11:35:49,542 django.request Forbidden: /v1/chat/rooms/1/messages/
-WARNING 2025-12-14 11:41:19,724 django.request Method Not Allowed: /v1/chat/messages/send/
-WARNING 2025-12-14 11:41:19,724 django.request Method Not Allowed: /v1/chat/messages/send/
-WARNING 2025-12-14 11:41:23,940 django.request Bad Request: /v1/chat/messages/send/
-WARNING 2025-12-14 11:41:23,940 django.request Bad Request: /v1/chat/messages/send/
-WARNING 2025-12-14 11:41:41,121 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 11:41:41,121 django.request Forbidden: /v1/chat/messages/send/
-WARNING 2025-12-14 11:47:00,281 django.request Bad Request: /v1/chat/messages/mark-read/
-WARNING 2025-12-14 11:47:00,281 django.request Bad Request: /v1/chat/messages/mark-read/
-WARNING 2025-12-14 11:47:30,198 django.request Bad Request: /v1/chat/messages/mark-read/
-WARNING 2025-12-14 11:47:30,198 django.request Bad Request: /v1/chat/messages/mark-read/
-WARNING 2025-12-14 11:48:29,840 django.request Forbidden: /v1/chat/messages/mark-read/
-WARNING 2025-12-14 11:48:29,840 django.request Forbidden: /v1/chat/messages/mark-read/
-WARNING 2025-12-14 11:50:38,574 django.request Not Found: /v1/chat/messages/<int:message_id>/delete/
-WARNING 2025-12-14 11:50:38,574 django.request Not Found: /v1/chat/messages/<int:message_id>/delete/
-WARNING 2025-12-14 11:51:55,073 django.request Method Not Allowed: /v1/chat/messages/9/delete/
-WARNING 2025-12-14 11:51:55,073 django.request Method Not Allowed: /v1/chat/messages/9/delete/
-WARNING 2025-12-14 11:52:21,009 django.request Not Found: /v1/chat/messages/9/delete/
-WARNING 2025-12-14 11:52:21,009 django.request Not Found: /v1/chat/messages/9/delete/
-WARNING 2025-12-14 11:52:29,112 django.request Not Found: /v1/chat/messages/9/delete/
-WARNING 2025-12-14 11:52:29,112 django.request Not Found: /v1/chat/messages/9/delete/
-WARNING 2025-12-14 11:54:06,213 django.request Forbidden: /v1/chat/messages/2/delete/
-WARNING 2025-12-14 11:54:06,213 django.request Forbidden: /v1/chat/messages/2/delete/
-WARNING 2025-12-14 11:54:16,244 django.request Forbidden: /v1/chat/messages/2/delete/
-WARNING 2025-12-14 11:54:16,244 django.request Forbidden: /v1/chat/messages/2/delete/
-WARNING 2025-12-14 11:54:21,915 django.request Forbidden: /v1/chat/messages/2/delete/
-WARNING 2025-12-14 11:54:21,915 django.request Forbidden: /v1/chat/messages/2/delete/
-WARNING 2025-12-14 11:59:22,200 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:22,200 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:33,134 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:33,134 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:37,287 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:37,287 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:54,588 django.request Not Found: /v1/chat/unread-count/rooms/
-WARNING 2025-12-14 11:59:54,588 django.request Not Found: /v1/chat/unread-count/rooms/
-INFO 2025-12-15 04:39:58,097 chatapp WS connected: user=1 room=1
-INFO 2025-12-15 04:40:17,329 chatapp WS connected: user=1 room=1
+ERROR 2025-12-18 06:08:07,927 account.utils API Error
+ERROR 2025-12-18 08:36:27,209 account.utils API Error

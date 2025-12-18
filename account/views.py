@@ -41,6 +41,25 @@ class SignupView(APIView):
 
 
 
+# class VerifyEmailOTPView(APIView):
+#     permission_classes = [AllowAny]
+
+#     @transaction.atomic
+#     def post(self, request):
+#         serializer = VerifyEmailOTPSerializer(data=request.data)
+#         if serializer.is_valid():
+#             user = serializer.context["user"]
+#             user.is_verified = True
+#             user.save(update_fields=["is_verified"])  # minimal write
+
+#             tokens = generate_tokens_for_user(user)
+#             return success_response(
+#                 "Email verified successfully",
+#                 {"user_id": user.user_id, "email": user.email, "tokens": tokens},
+#             )
+
+#         return error_response("OTP verification failed", serializer.errors)
+
 class VerifyEmailOTPView(APIView):
     permission_classes = [AllowAny]
 
@@ -50,15 +69,20 @@ class VerifyEmailOTPView(APIView):
         if serializer.is_valid():
             user = serializer.context["user"]
             user.is_verified = True
-            user.save(update_fields=["is_verified"])  # minimal write
+            user.save(update_fields=["is_verified"])
 
             tokens = generate_tokens_for_user(user)
+
             return success_response(
-                "Email verified successfully",
-                {"user_id": user.user_id, "email": user.email, "tokens": tokens},
+                message="Email verified successfully",
+                data={"access_token": tokens["access"]}
             )
 
-        return error_response("OTP verification failed", serializer.errors)
+        return error_response(
+            message="OTP verification failed",
+            data=serializer.errors,
+            status_code=400
+        )
     
 class ResendOTPView(APIView):
     permission_classes = [AllowAny]
@@ -171,3 +195,57 @@ class UserProfileUpdateAPIView(APIView):
             return success_response(message="Profile updated successfully", data=serializer.data)
 
         return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+    
+    
+# account delete api
+from django.shortcuts import get_object_or_404
+from .permissions import IsSelfOrAdmin
+
+class UserDeleteAPI(APIView):
+    permission_classes = [IsAuthenticated, IsSelfOrAdmin]
+
+    def delete(self, request):
+        user_id = request.query_params.get("user_id")
+        email = request.query_params.get("email")
+
+        if not user_id and not email:
+            return error_response(
+                message="Either user_id or email must be provided.",
+                status_code=400
+            )
+
+        if user_id:
+            user = get_object_or_404(UserAuth, user_id=user_id)
+        else:
+            user = get_object_or_404(UserAuth, email=email)
+
+        # Object-level permission check
+        self.check_object_permissions(request, user)
+
+        user.delete()
+
+        return success_response(
+            message="User account deleted successfully.",
+            data={}
+        )
+        
+        
+class UserProfileAPI(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        try:
+            user = request.user  # authenticated UserAuth instance
+            serializer = UserSerializer(user)
+
+            return success_response(
+                message="User profile fetched successfully",
+                data=serializer.data
+            )
+
+        except Exception as exc:
+            return error_response(
+                message="Failed to fetch user profile",
+                data=str(exc),
+                status_code=500
+            )

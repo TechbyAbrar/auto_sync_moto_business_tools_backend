@@ -4,7 +4,7 @@ from .views import (SignupView,
     ResendOTPView,
     LoginView,
     ForgetPasswordView,
-    ResetPasswordView, VerifyForgetPasswordOTPView, UserProfileUpdateAPIView
+    ResetPasswordView, VerifyForgetPasswordOTPView, UserProfileUpdateAPIView, UserDeleteAPI, UserProfileAPI
 )
 
 urlpatterns = [
@@ -19,6 +19,12 @@ urlpatterns = [
     path('reset-password/', ResetPasswordView.as_view(), name='reset_password'),
     
     path('users/<int:user_id>/update/', UserProfileUpdateAPIView.as_view(), name='user-profile-update'),
+    
+    # account delete api
+    path("users/delete/", UserDeleteAPI.as_view(), name="delete-user"),
+    path("users/me/", UserProfileAPI.as_view(), name="user-profile"),
+    
+    
 
     # User profile
     # path('profile/update/', UpdateProfileView.as_view(), name='update_profile'),
