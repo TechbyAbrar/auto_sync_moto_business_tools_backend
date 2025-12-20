@@ -68,15 +68,21 @@ class UserProfileUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserAuth
         fields = [
-            "first_name",
-            "last_name",
-            "email",
-            "username",
-            "profile_pic",
-            "dob",
-            "phone",
-            "address",
-            "zip_code",
+            'user_id',
+            'email',
+            'first_name',
+            'last_name',
+            'username',
+            'profile_pic',
+            'profile_pic_url',
+            'phone',
+            'address',
+            'zip_code',
+            'dob',
+            'is_verified',
+            'is_active',
+            'created_at',
+            'updated_at',
         ]
         extra_kwargs = {
             "email": {"required": True},

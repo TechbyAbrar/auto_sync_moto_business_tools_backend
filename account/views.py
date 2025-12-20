@@ -161,9 +161,9 @@ class ResetPasswordView(APIView):
         return error_response("Reset password failed", serializer.errors)
 
 
-
+from .permissions import IsSelfOrAdmin
 class UserProfileUpdateAPIView(APIView):
-    permission_classes = [IsAuthenticated, IsAdminUser]
+    permission_classes = [IsSelfOrAdmin]
     parser_classes = [JSONParser, MultiPartParser, FormParser]
 
     def get_object(self, user_id):

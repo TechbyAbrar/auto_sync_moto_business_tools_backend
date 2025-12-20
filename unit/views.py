@@ -3,6 +3,7 @@ from django.db import transaction
 from django.core.cache import cache
 from django.shortcuts import get_object_or_404
 
+from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 from rest_framework import status, generics
 from rest_framework.views import APIView
 from rest_framework.pagination import PageNumberPagination
@@ -25,6 +26,7 @@ CACHE_TIMEOUT = 60 * 5  # 5 minutes
 # -------------------
 class RegisterUnitCreateAPIView(generics.CreateAPIView):
     serializer_class = RegisterUnitSerializer
+    parser_classes = (MultiPartParser, FormParser, JSONParser)
 
     @transaction.atomic
     def post(self, request, *args, **kwargs):

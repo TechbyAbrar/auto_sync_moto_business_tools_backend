@@ -1,0 +1,26 @@
+INFO 2025-12-19 06:00:39,651 account.utils API Success
+INFO 2025-12-19 06:15:13,135 account.utils API Success
+WARNING 2025-12-19 06:36:27,584 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 06:36:27,584 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+INFO 2025-12-19 06:36:57,577 account.utils API Success
+INFO 2025-12-19 09:13:17,727 account.utils API Success
+WARNING 2025-12-19 09:15:29,138 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:15:29,138 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+INFO 2025-12-19 09:16:14,465 unit.views RegisterUnit created
+INFO 2025-12-19 09:16:14,466 account.utils API Success
+ERROR 2025-12-19 09:21:11,646 account.utils API Error
+WARNING 2025-12-19 09:21:11,694 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-19 09:21:11,694 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-19 09:21:33,777 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:21:33,777 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:22:21,308 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:22:21,308 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+INFO 2025-12-19 09:24:17,222 account.utils API Success
+WARNING 2025-12-19 09:27:46,181 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:27:46,181 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:46:10,406 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:46:10,406 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:46:14,378 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:46:14,378 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:50:11,578 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-19 09:50:11,578 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
