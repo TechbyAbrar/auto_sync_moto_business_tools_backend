@@ -30,32 +30,33 @@ class RegisterUnitSerializer(serializers.ModelSerializer):
 
 
 class ScheduleServiceSerializer(serializers.ModelSerializer):
-    full_name = serializers.SerializerMethodField()
-    email = serializers.SerializerMethodField()
+    full_name = serializers.SerializerMethodField(read_only=True)
+    email = serializers.SerializerMethodField(read_only=True)
     model_name = serializers.CharField(source="unit.model", read_only=True)
-    date = serializers.DateField(source="appointment_date", read_only=True)
+    appointment_date = serializers.DateField(required=True)
 
     class Meta:
         model = ScheduleService
         fields = [
             "id",
+            "unit",
             "full_name",
             "email",
             "model_name",
             "location",
-            "date",
+            "appointment_date",
             "details",
             "has_serviced_before",
             "created_at",
             "updated_at",
         ]
-        read_only_fields = ["id", "created_at", "updated_at"]
+        read_only_fields = ["id", "full_name", "email", "model_name", "created_at", "updated_at"]
 
     def get_full_name(self, obj):
-        return obj.unit.registrar.get_full_name()
+        return obj.unit.registrar.get_full_name() if obj.unit and obj.unit.registrar else None
 
     def get_email(self, obj):
-        return obj.unit.registrar.email
+        return obj.unit.registrar.email if obj.unit and obj.unit.registrar else None
 
 # sell unit
 class SellUnitSerializer(serializers.ModelSerializer):
@@ -69,6 +70,7 @@ class SellUnitSerializer(serializers.ModelSerializer):
         model = SellUnit
         fields = [
             "id",
+            "unit",
             "full_name",
             "email",
             "model_name",

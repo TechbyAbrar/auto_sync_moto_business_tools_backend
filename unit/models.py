@@ -57,7 +57,7 @@ class ScheduleService(models.Model):
 
     details = models.TextField()
     location = models.CharField(max_length=100)
-    appointment_date = models.DateField()
+    appointment_date = models.DateField(null=True, blank=True)
 
     has_serviced_before = models.BooleanField(default=False)
 

@@ -1,0 +1,1478 @@
+WARNING 2025-12-20 04:05:20,598 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:05:20,598 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+ERROR 2025-12-20 04:12:08,550 account.utils API Error
+WARNING 2025-12-20 04:12:08,601 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-20 04:12:08,601 django.request Bad Request: /v1/unit/register-units/create/
+WARNING 2025-12-20 04:12:08,666 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:12:08,666 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:13:01,884 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:13:01,884 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:13:50,567 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:13:50,567 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:15:13,862 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:15:13,862 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:15:34,991 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:15:34,991 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:23:04,729 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:23:04,729 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+INFO 2025-12-20 04:24:04,305 unit.views RegisterUnit created
+INFO 2025-12-20 04:24:04,306 account.utils API Success
+INFO 2025-12-20 04:24:05,006 account.utils API Success
+WARNING 2025-12-20 04:26:08,293 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:26:08,293 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:26:24,038 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:26:24,038 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:26:50,585 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:26:50,585 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:26:50,817 django.request Not Found: /favicon.ico
+WARNING 2025-12-20 04:26:50,817 django.request Not Found: /favicon.ico
+WARNING 2025-12-20 04:27:33,839 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:27:33,839 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:16,942 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:16,942 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,182 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,182 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,209 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,209 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,238 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,238 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,253 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,253 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,268 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,268 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,290 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,290 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,314 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,314 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,329 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,329 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,488 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,488 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,513 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,513 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,526 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,526 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,541 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,541 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,557 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,557 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,572 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,572 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,587 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,587 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,603 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:55,603 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,090 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,090 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,165 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,165 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,187 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,187 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,215 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,215 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,229 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,229 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,244 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,244 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,260 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,260 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,275 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,275 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,291 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,291 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,306 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,306 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,324 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,324 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,338 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,338 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,351 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,351 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,367 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,367 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,381 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,381 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,396 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,396 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,413 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,413 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,428 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,428 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,442 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,442 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,461 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,461 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,478 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,478 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,505 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,505 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,521 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,521 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,537 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,537 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,553 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,553 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,586 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,586 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,614 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,614 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,645 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,645 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,672 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,672 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,687 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,687 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,703 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,703 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,719 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,719 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,733 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,733 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,749 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,749 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,763 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:29:56,763 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:30:19,654 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:30:19,654 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:30:39,218 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:30:39,218 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:31:21,866 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:31:21,866 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:31:32,359 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:31:32,359 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,502 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,502 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,530 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,530 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,542 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,542 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,557 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,557 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,572 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,572 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,589 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,589 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,604 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,604 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,619 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,619 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,634 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,634 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,650 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,650 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,666 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,666 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,680 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,680 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,696 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,696 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,714 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,714 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,743 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,743 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,758 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,758 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,773 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,773 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,789 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,789 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,803 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,803 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,818 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,818 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,833 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,833 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,848 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,848 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,863 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,863 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,880 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,880 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,893 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,893 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,908 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,908 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,924 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,924 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,940 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,940 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,956 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,956 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,970 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,970 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,985 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:01,985 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,001 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,001 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,016 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,016 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,031 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,031 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,047 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,047 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,063 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,063 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,077 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,077 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,092 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,092 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,108 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,108 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,123 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,123 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,139 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,139 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,154 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,154 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,169 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,169 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,184 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,184 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,199 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,199 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,214 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,214 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,229 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,229 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,244 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,244 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,260 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,260 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,274 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,274 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,291 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,291 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,305 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,305 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,321 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,321 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,336 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,336 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,351 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,351 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,368 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,368 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,382 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,382 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,398 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,398 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,413 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,413 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,428 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,428 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,444 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,444 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,459 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,459 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,474 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,474 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,488 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,488 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,507 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,507 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,525 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,525 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,551 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,551 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,566 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,566 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,581 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,581 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,596 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,596 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,610 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,610 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,627 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,627 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,642 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,642 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,656 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,656 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,672 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,672 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,687 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,687 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,707 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,707 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,734 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,734 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,749 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,749 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,765 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,765 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,779 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,779 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,793 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,793 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,810 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,810 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,825 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,825 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,839 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,839 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,855 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,855 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,870 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,870 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,886 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,886 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,902 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,902 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,917 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,917 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,932 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,932 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,949 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,949 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,963 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,963 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,978 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,978 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,994 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:02,994 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,009 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,009 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,025 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,025 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,039 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,039 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,057 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,057 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,071 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,071 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,085 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,085 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,100 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,100 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,119 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,119 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,147 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,147 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,162 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,162 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,178 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,178 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,192 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,192 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,209 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,209 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,222 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,222 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,245 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,245 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,272 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,272 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,299 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,299 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,316 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,316 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,331 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,331 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,347 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,347 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,362 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,362 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,376 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,376 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,390 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,390 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,407 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,407 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,424 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,424 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,438 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,438 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,452 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,452 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,469 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,469 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,483 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,483 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,498 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,498 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,513 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,513 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,529 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,529 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,543 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,543 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,559 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,559 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,574 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,574 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+INFO 2025-12-20 04:32:03,581 unit.views RegisterUnit deleted
+INFO 2025-12-20 04:32:03,581 account.utils API Success
+WARNING 2025-12-20 04:32:03,591 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,591 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,606 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,606 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,619 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,619 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,639 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 04:32:03,639 django.request Not Found: /media/unit_images/image_4_DA2ZkaY.jpg
+WARNING 2025-12-20 05:13:06,301 django.request Not Found: /favicon.ico
+WARNING 2025-12-20 05:13:06,301 django.request Not Found: /favicon.ico
+WARNING 2025-12-20 05:24:54,033 django.request Unauthorized: /v1/privacy/privacy-policy/
+WARNING 2025-12-20 05:24:54,033 django.request Unauthorized: /v1/privacy/privacy-policy/
+INFO 2025-12-20 05:24:58,945 account.utils API Success
+INFO 2025-12-20 05:26:35,666 account.utils API Success
+WARNING 2025-12-20 06:01:43,133 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-20 06:01:43,133 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-20 06:09:30,705 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-20 06:09:30,705 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-20 06:09:34,340 account.utils API Success
+WARNING 2025-12-20 06:11:56,666 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-20 06:11:56,666 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-20 06:16:00,015 account.utils API Success
+ERROR 2025-12-20 06:17:18,028 account.utils API Error
+WARNING 2025-12-20 06:17:18,089 django.request Forbidden: /v1/account/users/1/update/
+WARNING 2025-12-20 06:17:18,089 django.request Forbidden: /v1/account/users/1/update/
+INFO 2025-12-20 06:17:33,486 account.utils API Success
+INFO 2025-12-20 06:17:47,027 account.utils API Success
+INFO 2025-12-20 08:16:22,359 account.utils API Success
+INFO 2025-12-20 06:20:48,033 account.utils API Success
+WARNING 2025-12-20 06:20:32,562 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-20 06:23:09,732 account.utils API Success
+INFO 2025-12-20 08:12:33,405 account.utils API Success
+WARNING 2025-12-20 06:20:32,562 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-20 08:17:16,572 account.utils API Success
+INFO 2025-12-20 08:18:45,094 account.utils API Success
+INFO 2025-12-20 08:19:16,937 account.utils API Success
+INFO 2025-12-20 08:19:47,203 account.utils API Success
+INFO 2025-12-20 08:20:17,913 account.utils API Success
+INFO 2025-12-20 08:20:59,998 account.utils API Success
+INFO 2025-12-20 08:21:00,835 account.utils API Success
+INFO 2025-12-20 08:22:13,325 account.utils API Success
+INFO 2025-12-20 08:23:06,621 account.utils API Success
+INFO 2025-12-20 08:23:30,609 account.utils API Success
+INFO 2025-12-20 08:52:38,220 account.utils API Success
+INFO 2025-12-20 08:52:52,167 account.utils API Success
+INFO 2025-12-20 08:52:59,889 account.utils API Success
+INFO 2025-12-20 08:54:24,482 account.utils API Success
+INFO 2025-12-20 08:54:30,375 account.utils API Success
+INFO 2025-12-20 08:55:02,645 account.utils API Success
+INFO 2025-12-20 08:55:03,175 account.utils API Success
+INFO 2025-12-20 08:56:55,917 account.utils API Success
+WARNING 2025-12-20 08:57:00,917 django.request Not Found: /v1/media/profile/image.jpg
+WARNING 2025-12-20 08:57:00,917 django.request Not Found: /v1/media/profile/image.jpg
+WARNING 2025-12-20 08:57:41,777 django.request Not Found: /v1/media/profile/image.jpg
+WARNING 2025-12-20 08:57:41,777 django.request Not Found: /v1/media/profile/image.jpg
+INFO 2025-12-20 08:57:45,066 account.utils API Success
+INFO 2025-12-20 08:58:35,528 account.utils API Success
+INFO 2025-12-20 08:59:09,651 account.utils API Success
+INFO 2025-12-20 09:12:12,844 account.utils API Success
+ERROR 2025-12-20 09:12:48,646 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 190, in patch
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 497, in to_internal_value
+    for field in fields:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `full_name` is not valid for model `UserAuth` in `account.serializers.UserProfileUpdateSerializer`.
+ERROR 2025-12-20 09:12:48,646 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 190, in patch
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 497, in to_internal_value
+    for field in fields:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `full_name` is not valid for model `UserAuth` in `account.serializers.UserProfileUpdateSerializer`.
+INFO 2025-12-20 09:13:13,473 account.utils API Success
+INFO 2025-12-20 09:14:16,958 account.utils API Success
+INFO 2025-12-20 09:16:38,663 account.utils API Success
+INFO 2025-12-20 09:16:39,896 account.utils API Success
+INFO 2025-12-20 09:26:38,484 account.utils API Success
+INFO 2025-12-20 09:26:48,616 account.utils API Success
+INFO 2025-12-20 09:26:49,892 account.utils API Success
+INFO 2025-12-20 09:27:20,942 account.utils API Success
+INFO 2025-12-20 09:27:21,563 account.utils API Success
+INFO 2025-12-20 09:27:37,075 account.utils API Success
+INFO 2025-12-20 09:33:06,672 account.utils API Success
+INFO 2025-12-20 09:33:11,431 account.utils API Success
+INFO 2025-12-20 09:37:10,125 account.utils API Success
+INFO 2025-12-20 09:39:38,587 account.utils API Success
+INFO 2025-12-20 09:39:39,177 account.utils API Success
+INFO 2025-12-20 09:53:35,580 account.utils API Success
+INFO 2025-12-20 09:54:29,386 account.utils API Success
+INFO 2025-12-20 09:55:17,684 account.utils API Success
+INFO 2025-12-20 09:56:13,677 account.utils API Success
+INFO 2025-12-20 09:56:22,442 account.utils API Success
+INFO 2025-12-20 09:56:58,537 account.utils API Success
+INFO 2025-12-20 09:58:10,900 account.utils API Success
+INFO 2025-12-20 09:59:19,443 account.utils API Success
+INFO 2025-12-20 10:00:00,215 account.utils API Success
+INFO 2025-12-20 10:00:12,294 account.utils API Success
+INFO 2025-12-20 10:00:19,014 account.utils API Success
+INFO 2025-12-20 10:00:28,539 account.utils API Success
+INFO 2025-12-20 10:00:31,801 account.utils API Success
+INFO 2025-12-20 10:01:39,929 account.utils API Success
+WARNING 2025-12-20 10:02:00,583 django.request Unauthorized: /v1/unit/services/
+WARNING 2025-12-20 10:02:00,583 django.request Unauthorized: /v1/unit/services/
+WARNING 2025-12-20 10:02:24,755 django.request Unauthorized: /v1/unit/services/
+WARNING 2025-12-20 10:02:24,755 django.request Unauthorized: /v1/unit/services/
+INFO 2025-12-20 10:02:30,921 account.utils API Success
+INFO 2025-12-20 10:02:46,881 account.utils API Success
+INFO 2025-12-20 11:02:10,617 account.utils API Success
+INFO 2025-12-20 11:02:16,304 account.utils API Success
+INFO 2025-12-20 11:03:18,365 account.utils API Success
+INFO 2025-12-20 11:03:25,251 account.utils API Success
+INFO 2025-12-20 11:03:29,305 account.utils API Success
+INFO 2025-12-20 11:03:59,591 account.utils API Success
+INFO 2025-12-20 11:04:09,360 account.utils API Success
+INFO 2025-12-20 11:04:28,314 account.utils API Success
+INFO 2025-12-20 11:04:47,331 account.utils API Success
+INFO 2025-12-22 05:30:37,456 account.utils API Success
+INFO 2025-12-22 05:30:45,560 account.utils API Success
+INFO 2025-12-22 05:31:29,153 account.utils API Success
+INFO 2025-12-22 05:38:56,718 account.utils API Success
+INFO 2025-12-22 05:39:22,188 account.utils API Success
+INFO 2025-12-22 05:39:44,341 account.utils API Success
+INFO 2025-12-22 05:39:53,011 account.utils API Success
+INFO 2025-12-22 05:41:01,307 account.utils API Success
+INFO 2025-12-22 05:41:09,557 account.utils API Success
+INFO 2025-12-22 05:41:33,742 account.utils API Success
+INFO 2025-12-22 05:41:42,582 account.utils API Success
+INFO 2025-12-22 06:04:49,054 account.utils API Success
+WARNING 2025-12-22 06:05:09,770 django.request Unauthorized: /v1/unit/services/
+WARNING 2025-12-22 06:05:09,770 django.request Unauthorized: /v1/unit/services/
+ERROR 2025-12-22 06:05:23,743 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (4, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:22.264362+00, 2025-12-22 06:05:22.264503+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (4, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:22.264362+00, 2025-12-22 06:05:22.264503+00, null).
+
+ERROR 2025-12-22 06:05:23,743 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (4, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:22.264362+00, 2025-12-22 06:05:22.264503+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (4, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:22.264362+00, 2025-12-22 06:05:22.264503+00, null).
+
+ERROR 2025-12-22 06:05:34,221 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (5, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:33.696198+00, 2025-12-22 06:05:33.696212+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (5, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:33.696198+00, 2025-12-22 06:05:33.696212+00, null).
+
+ERROR 2025-12-22 06:05:34,221 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (5, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:33.696198+00, 2025-12-22 06:05:33.696212+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (5, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:33.696198+00, 2025-12-22 06:05:33.696212+00, null).
+
+ERROR 2025-12-22 06:05:42,369 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (6, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:41.24162+00, 2025-12-22 06:05:41.241858+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (6, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:41.24162+00, 2025-12-22 06:05:41.241858+00, null).
+
+ERROR 2025-12-22 06:05:42,369 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (6, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:41.24162+00, 2025-12-22 06:05:41.241858+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (6, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:05:41.24162+00, 2025-12-22 06:05:41.241858+00, null).
+
+ERROR 2025-12-22 06:06:02,279 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (7, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:06:01.770666+00, 2025-12-22 06:06:01.770679+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (7, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:06:01.770666+00, 2025-12-22 06:06:01.770679+00, null).
+
+ERROR 2025-12-22 06:06:02,279 django.request Internal Server Error: /v1/unit/services/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (7, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:06:01.770666+00, 2025-12-22 06:06:01.770679+00, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/unit/views.py", line 201, in post
+    service = serializer.save()
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "appointment_date" of relation "unit_scheduleservice" violates not-null constraint
+DETAIL:  Failing row contains (7, Full engine service including oil change and inspection., Dhaka Workshop A, null, f, 2025-12-22 06:06:01.770666+00, 2025-12-22 06:06:01.770679+00, null).
+
+WARNING 2025-12-22 06:06:10,971 django.request Unauthorized: /v1/unit/register-units/
+WARNING 2025-12-22 06:06:10,971 django.request Unauthorized: /v1/unit/register-units/
+INFO 2025-12-22 06:06:16,426 account.utils API Success

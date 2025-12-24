@@ -56,16 +56,46 @@ class RegisterUnitCreateAPIView(generics.CreateAPIView):
 # -------------------
 # List API
 # -------------------
+# class RegisterUnitListAPIView(generics.ListAPIView):
+#     serializer_class = RegisterUnitSerializer
+#     pagination_class = None  # Add pagination if needed
+#     permission_classes = [IsAuthenticated]
+
+#     def get_queryset(self):
+#         cached = cache.get(CACHE_KEY)
+#         if cached:
+#             return cached
+#         qs = RegisterUnit.objects.select_related("registrar").all().order_by("-created_at")
+#         cache.set(CACHE_KEY, qs, CACHE_TIMEOUT)
+#         return qs
+
+#     def list(self, request, *args, **kwargs):
+#         queryset = self.get_queryset()
+#         serializer = self.get_serializer(queryset, many=True)
+
+#         return success_response(
+#             message="Register units fetched successfully",
+#             data={"results": serializer.data}
+#         )
+
+
 class RegisterUnitListAPIView(generics.ListAPIView):
     serializer_class = RegisterUnitSerializer
     pagination_class = None  # Add pagination if needed
 
     def get_queryset(self):
-        cached = cache.get(CACHE_KEY)
+        user = self.request.user
+        if not user.is_authenticated:
+            return RegisterUnit.objects.none()  # Return empty queryset for unauthenticated users
+
+        # Optional: per-user cache key
+        user_cache_key = f"{CACHE_KEY}_user_{user.user_id}"
+        cached = cache.get(user_cache_key)
         if cached:
             return cached
-        qs = RegisterUnit.objects.select_related("registrar").all().order_by("-created_at")
-        cache.set(CACHE_KEY, qs, CACHE_TIMEOUT)
+
+        qs = RegisterUnit.objects.filter(registrar=user).select_related("registrar").order_by("-created_at")
+        cache.set(user_cache_key, qs, CACHE_TIMEOUT)
         return qs
 
     def list(self, request, *args, **kwargs):
@@ -178,32 +208,60 @@ class RegisterUnitDeleteAPIView(generics.DestroyAPIView):
 
 
 # schedule service views
-
-class ScheduleServiceListCreateAPIView(APIView, PageNumberPagination):
+class ScheduleServicePagination(PageNumberPagination):
     page_size = 10
 
+class ScheduleServiceListCreateAPIView(APIView):
+    pagination_class = ScheduleServicePagination
+
     def get(self, request):
-        cache_key = "all_services_page_" + str(request.query_params.get("page", 1))
+        paginator = self.pagination_class()
+        page_number = request.query_params.get("page", 1)
+        cache_key = f"all_services_page_{page_number}"
+
         cached_data = cache.get(cache_key)
         if cached_data:
-            return success_response(data=cached_data)
+            return success_response(data=cached_data, message="Services fetched successfully")
 
-        services = ScheduleService.objects.select_related("unit").all()
-        results = self.paginate_queryset(services, request, view=self)
-        serializer = ScheduleServiceSerializer(results, many=True)
-        cache.set(cache_key, serializer.data, CACHE_TIMEOUT)
-        return self.get_paginated_response(success_response(data=serializer.data).data)
+        queryset = (
+            ScheduleService.objects
+            .select_related("unit")
+            .order_by("-id")
+        )
+
+        page = paginator.paginate_queryset(queryset, request)
+        serializer = ScheduleServiceSerializer(page, many=True)
+
+        # Wrap paginated data inside your standard response
+        response_data = {
+            "count": paginator.page.paginator.count,
+            "next": paginator.get_next_link(),
+            "previous": paginator.get_previous_link(),
+            "results": serializer.data
+        }
+
+        cache.set(cache_key, response_data, CACHE_TIMEOUT)
+        return success_response(data=response_data, message="Services fetched successfully")
 
     @transaction.atomic
     def post(self, request):
         serializer = ScheduleServiceSerializer(data=request.data)
         if serializer.is_valid():
             service = serializer.save()
-            cache.clear()
+            cache.clear()  # Invalidate cache on create
             logger.info(f"Created ScheduleService ID={service.id}")
-            return success_response(data=serializer.data, message="Service created", status_code=status.HTTP_201_CREATED)
+            return success_response(
+                data=serializer.data,
+                message="Service created",
+                status_code=status.HTTP_201_CREATED
+            )
+
         logger.error(f"ScheduleService creation failed: {serializer.errors}")
-        return error_response(errors=serializer.errors, message="Service creation failed", status_code=status.HTTP_400_BAD_REQUEST)
+        return error_response(
+            errors=serializer.errors,
+            message="Service creation failed",
+            status_code=status.HTTP_400_BAD_REQUEST
+        )
 
 
 class ScheduleServiceDetailAPIView(APIView):
@@ -241,6 +299,14 @@ class ScheduleServiceDetailAPIView(APIView):
             return success_response(data=serializer.data, message="Service partially updated")
         logger.error(f"ScheduleService partial update failed: {serializer.errors}")
         return error_response(errors=serializer.errors, message="Service partial update failed", status_code=status.HTTP_400_BAD_REQUEST)
+    
+
+    def delete(self, request, pk):
+        service = self.get_object(pk)
+        service.delete()
+        cache.clear()
+        logger.info(f"Deleted ScheduleService ID={pk}")
+        return success_response(message="Service deleted successfully")
 
 
 
