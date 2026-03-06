@@ -1,0 +1,30 @@
+INFO 2025-12-26 04:13:26,586 account.utils API Success
+INFO 2025-12-26 11:24:35,002 account.utils API Success
+INFO 2025-12-26 11:30:20,802 account.utils API Success
+INFO 2025-12-26 11:33:47,118 unit.views Created ScheduleService ID=29
+INFO 2025-12-26 11:33:47,168 account.utils API Success
+WARNING 2025-12-26 11:34:12,994 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:34:12,994 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:34:28,252 account.utils API Success
+WARNING 2025-12-26 11:34:28,851 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:34:28,851 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:34:36,137 account.utils API Success
+INFO 2025-12-26 11:34:53,234 account.utils API Success
+WARNING 2025-12-26 11:38:50,607 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:38:50,607 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:38:55,623 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:38:55,623 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:39:41,595 unit.views RegisterUnit created
+INFO 2025-12-26 11:39:41,596 account.utils API Success
+INFO 2025-12-26 11:40:11,130 unit.views RegisterUnit deleted
+INFO 2025-12-26 11:40:11,131 account.utils API Success
+WARNING 2025-12-26 11:40:18,115 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:40:18,115 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:43:33,757 account.utils API Success
+INFO 2025-12-26 11:48:43,828 account.utils API Success
+INFO 2025-12-27 03:57:15,903 account.utils API Success
+WARNING 2025-12-27 04:00:35,165 django.request Unauthorized: /v1/unit/sell-units/
+WARNING 2025-12-27 04:00:35,165 django.request Unauthorized: /v1/unit/sell-units/
+WARNING 2025-12-27 04:00:39,615 django.request Unauthorized: /v1/unit/sell-units/
+WARNING 2025-12-27 04:00:39,615 django.request Unauthorized: /v1/unit/sell-units/
+INFO 2025-12-27 08:38:05,564 account.utils API Success

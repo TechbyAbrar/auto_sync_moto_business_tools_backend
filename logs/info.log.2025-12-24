@@ -1,0 +1,228 @@
+INFO 2025-12-24 03:33:40,987 account.utils API Success
+INFO 2025-12-24 03:50:21,765 account.utils API Success
+INFO 2025-12-24 03:51:38,858 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 03:55:54,659 account.utils API Success
+INFO 2025-12-24 04:13:29,145 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 04:13:32,672 account.utils API Success
+WARNING 2025-12-24 04:13:42,559 django.request Not Found: /v1/chat/rooms/null/messages/
+WARNING 2025-12-24 04:13:42,559 django.request Not Found: /v1/chat/rooms/null/messages/
+INFO 2025-12-24 04:13:46,660 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 04:14:14,077 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 04:14:20,205 account.utils API Success
+INFO 2025-12-24 04:15:21,407 account.utils API Success
+INFO 2025-12-24 04:19:37,040 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 04:20:15,298 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 04:20:18,149 account.utils API Success
+WARNING 2025-12-24 04:20:21,527 django.request Not Found: /v1/chat/rooms/null/messages/
+WARNING 2025-12-24 04:20:21,527 django.request Not Found: /v1/chat/rooms/null/messages/
+INFO 2025-12-24 04:20:22,418 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 04:20:45,823 chatapp WS connected: user=8 room=3
+WARNING 2025-12-24 04:22:19,393 django.request Forbidden: /v1/chat/messages/mark-read/
+WARNING 2025-12-24 04:22:19,393 django.request Forbidden: /v1/chat/messages/mark-read/
+INFO 2025-12-24 04:23:37,946 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 04:23:39,923 account.utils API Success
+INFO 2025-12-24 04:23:45,100 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:29:45,154 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:29:56,341 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:32:06,798 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:32:09,855 account.utils API Success
+INFO 2025-12-24 08:32:18,420 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:35:37,165 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:41:02,432 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:41:21,011 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:42:38,370 account.utils API Success
+WARNING 2025-12-24 08:42:50,050 django.request Bad Request: /v1/account/login/
+WARNING 2025-12-24 08:42:50,050 django.request Bad Request: /v1/account/login/
+WARNING 2025-12-24 08:42:53,258 django.request Bad Request: /v1/account/login/
+WARNING 2025-12-24 08:42:53,258 django.request Bad Request: /v1/account/login/
+INFO 2025-12-24 08:43:03,076 account.utils API Success
+INFO 2025-12-24 08:45:30,193 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:45:32,299 account.utils API Success
+INFO 2025-12-24 08:45:41,784 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:50:18,126 account.utils API Success
+INFO 2025-12-24 08:50:27,494 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:50:33,389 chatapp WS connected: user=1 room=3
+INFO 2025-12-24 08:51:11,015 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:51:14,166 account.utils API Success
+INFO 2025-12-24 08:54:13,175 account.utils API Success
+INFO 2025-12-24 08:54:21,166 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 08:55:08,512 chatapp WS disconnected: user=1 room=3
+INFO 2025-12-24 08:55:08,513 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:55:08,513 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 08:55:46,562 account.utils API Success
+INFO 2025-12-24 08:55:50,172 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:09:11,891 chatapp WS connected: user=1 room=3
+INFO 2025-12-24 09:17:25,394 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:17:28,771 account.utils API Success
+INFO 2025-12-24 09:17:36,703 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:26:46,690 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:28:17,013 account.utils API Success
+INFO 2025-12-24 09:29:48,506 chatapp WS connected: user=1 room=3
+INFO 2025-12-24 09:30:39,256 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:30:45,886 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:46,375 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:46,864 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:47,348 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:47,831 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:48,365 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:48,847 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:49,821 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:50,794 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:51,302 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:51,783 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:52,755 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:30:59,580 channels_redis.core 1 of 5 channels over capacity in group chat_3
+INFO 2025-12-24 09:32:19,488 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:32:19,490 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:32:22,619 account.utils API Success
+INFO 2025-12-24 09:32:26,932 chatapp WS connected: user=1 room=3
+INFO 2025-12-24 09:32:34,729 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:35:58,131 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:36:03,432 account.utils API Success
+INFO 2025-12-24 09:36:08,676 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:36:16,148 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:36:18,343 account.utils API Success
+INFO 2025-12-24 09:36:25,798 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:48:38,437 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:48:41,957 account.utils API Success
+INFO 2025-12-24 09:48:47,218 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:50:10,368 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:50:13,557 account.utils API Success
+INFO 2025-12-24 09:50:17,268 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:51:24,169 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:51:27,401 account.utils API Success
+INFO 2025-12-24 09:51:30,235 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 09:53:06,183 chatapp WS disconnected: user=1 room=3
+INFO 2025-12-24 09:53:06,183 chatapp WS disconnected: user=1 room=3
+INFO 2025-12-24 09:53:06,184 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 09:53:37,894 account.utils API Success
+INFO 2025-12-24 09:53:41,262 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:12:48,921 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:12:51,922 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:12:56,185 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:13:40,584 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:13:40,583 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:13:43,873 account.utils API Success
+INFO 2025-12-24 10:13:47,000 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:16:31,740 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:17:06,707 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:17:47,788 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:17:51,006 account.utils API Success
+INFO 2025-12-24 10:17:54,032 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:19:33,474 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:19:36,509 account.utils API Success
+INFO 2025-12-24 10:19:44,956 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:21:47,079 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:21:49,942 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:22:43,595 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-24 10:22:43,710 chatapp WS connected: user=8 room=3
+INFO 2025-12-24 10:36:10,906 chatapp WS disconnected: user=8 room=3
+WARNING 2025-12-25 05:27:39,893 django.request Not Found: //chat
+WARNING 2025-12-25 05:27:39,893 django.request Not Found: //chat
+INFO 2025-12-25 05:30:41,617 account.utils API Success
+INFO 2025-12-25 06:27:30,897 account.utils API Success
+INFO 2025-12-25 06:35:58,179 account.utils API Success
+INFO 2025-12-25 10:07:07,755 account.utils API Success
+INFO 2025-12-25 10:09:22,060 account.utils API Success
+INFO 2025-12-25 10:28:57,884 unit.views RegisterUnit deleted
+INFO 2025-12-25 10:28:57,886 account.utils API Success
+INFO 2025-12-25 10:29:02,460 unit.views RegisterUnit deleted
+INFO 2025-12-25 10:29:02,461 account.utils API Success
+INFO 2025-12-25 10:29:06,814 unit.views RegisterUnit deleted
+INFO 2025-12-25 10:29:06,815 account.utils API Success
+INFO 2025-12-25 10:33:14,121 account.utils API Success
+INFO 2025-12-25 10:33:17,453 account.utils API Success
+INFO 2025-12-25 10:34:56,944 account.utils API Success
+INFO 2025-12-25 10:35:15,140 account.utils API Success
+INFO 2025-12-25 10:37:49,036 account.utils API Success
+INFO 2025-12-25 10:37:54,879 account.utils API Success
+INFO 2025-12-25 10:38:21,127 account.utils API Success
+INFO 2025-12-25 10:40:50,550 account.utils API Success
+ERROR 2025-12-25 10:43:58,548 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:43:58,548 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'

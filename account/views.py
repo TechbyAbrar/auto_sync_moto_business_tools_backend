@@ -41,25 +41,6 @@ class SignupView(APIView):
 
 
 
-# class VerifyEmailOTPView(APIView):
-#     permission_classes = [AllowAny]
-
-#     @transaction.atomic
-#     def post(self, request):
-#         serializer = VerifyEmailOTPSerializer(data=request.data)
-#         if serializer.is_valid():
-#             user = serializer.context["user"]
-#             user.is_verified = True
-#             user.save(update_fields=["is_verified"])  # minimal write
-
-#             tokens = generate_tokens_for_user(user)
-#             return success_response(
-#                 "Email verified successfully",
-#                 {"user_id": user.user_id, "email": user.email, "tokens": tokens},
-#             )
-
-#         return error_response("OTP verification failed", serializer.errors)
-
 class VerifyEmailOTPView(APIView):
     permission_classes = [AllowAny]
 
@@ -167,35 +148,50 @@ class UserProfileUpdateAPIView(APIView):
     parser_classes = [JSONParser, MultiPartParser, FormParser]
 
     def get_object(self, user_id):
-        # Use only() to load only required fields for update
         try:
-            return UserAuth.objects.only(
-                "user_id", "first_name", "last_name", "email",
-                "username", "profile_pic", "dob", "phone", "address", "zip_code"
-            ).get(user_id=user_id)
+            return UserAuth.objects.get(user_id=user_id)
         except UserAuth.DoesNotExist:
             return None
 
-    @transaction.atomic  # ensures atomic update
+    @transaction.atomic
     def patch(self, request, user_id):
         user = self.get_object(user_id)
         if not user:
-            return error_response(message="User not found.", status_code=404)
+            return error_response("User not found.", 404)
 
-        # Only admin or the user themselves can update
+        # Permission safety (defensive check)
         if request.user != user and not request.user.is_staff:
-            return error_response(message="You do not have permission to update this user.", status_code=403)
+            return error_response(
+                "You do not have permission to update this user.",
+                403
+            )
 
-        serializer = UserProfileUpdateSerializer(user, data=request.data, partial=True)
-        if serializer.is_valid():
-            # Use update() to avoid extra save overhead for simple fields
-            serializer.save()
-            # Refresh from DB to get updated fields if needed
-            user.refresh_from_db()
-            return success_response(message="Profile updated successfully", data=serializer.data)
+        if not request.data:
+            return error_response(
+                message="No fields provided for update.",
+                status_code=400
+            )
 
-        return error_response(message="Validation errors", data=serializer.errors, status_code=400)
-    
+        serializer = UserProfileUpdateSerializer(
+            instance=user,
+            data=request.data,
+            partial=True,
+            context={"request": request},
+        )
+
+        if not serializer.is_valid():
+            return error_response(
+                message="Validation errors",
+                status_code=400,
+                errors=serializer.errors,
+            )
+
+        serializer.save()
+
+        return success_response(
+            message="Profile updated successfully",
+            data=serializer.data,
+        )
     
 # account delete api
 from django.shortcuts import get_object_or_404

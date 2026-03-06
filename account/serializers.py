@@ -65,35 +65,47 @@ class UserSerializer(serializers.ModelSerializer):
 
 # update profile
 class UserProfileUpdateSerializer(serializers.ModelSerializer):
+    profile_pic_url = serializers.SerializerMethodField(read_only=True)
+
     class Meta:
         model = UserAuth
-        fields = [
-            'user_id',
-            'email',
-            'first_name',
-            'last_name',
-            'username',
-            'profile_pic',
-            'profile_pic_url',
-            'phone',
-            'address',
-            'zip_code',
-            'dob',
-            'is_verified',
-            'is_active',
-            'created_at',
-            'updated_at',
-        ]
-        extra_kwargs = {
-            "email": {"required": True},
-            "username": {"required": False, "allow_blank": True},
-        }
+        fields = (
+            "user_id",
+            "email",
+            "first_name",
+            "last_name",
+            "username",
+            "profile_pic",
+            "profile_pic_url",
+            "phone",
+            "address",
+            "zip_code",
+            "dob",
+            "is_verified",
+            "is_active",
+            "created_at",
+            "updated_at",
+        )
+        read_only_fields = (
+            "user_id",
+            "email",
+            "is_verified",
+            "is_active",
+            "created_at",
+            "updated_at",
+        )
 
-    def validate_email(self, value):
-        user = self.instance
-        if UserAuth.objects.exclude(user_id=user.user_id).filter(email=value).exists():
-            raise serializers.ValidationError("This email is already in use.")
-        return value
+    def get_profile_pic_url(self, obj):
+        if obj.profile_pic and hasattr(obj.profile_pic, "url"):
+            request = self.context.get("request")
+            url = obj.profile_pic.url
+            version = int(obj.updated_at.timestamp())
+            final_url = f"{url}?v={version}"
+
+            if request:
+                return request.build_absolute_uri(final_url)
+            return final_url
+        return None
 
 class SignupSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)

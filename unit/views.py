@@ -53,30 +53,6 @@ class RegisterUnitCreateAPIView(generics.CreateAPIView):
             )
 
 
-# -------------------
-# List API
-# -------------------
-# class RegisterUnitListAPIView(generics.ListAPIView):
-#     serializer_class = RegisterUnitSerializer
-#     pagination_class = None  # Add pagination if needed
-#     permission_classes = [IsAuthenticated]
-
-#     def get_queryset(self):
-#         cached = cache.get(CACHE_KEY)
-#         if cached:
-#             return cached
-#         qs = RegisterUnit.objects.select_related("registrar").all().order_by("-created_at")
-#         cache.set(CACHE_KEY, qs, CACHE_TIMEOUT)
-#         return qs
-
-#     def list(self, request, *args, **kwargs):
-#         queryset = self.get_queryset()
-#         serializer = self.get_serializer(queryset, many=True)
-
-#         return success_response(
-#             message="Register units fetched successfully",
-#             data={"results": serializer.data}
-#         )
 
 
 class RegisterUnitListAPIView(generics.ListAPIView):

@@ -1,0 +1,637 @@
+INFO 2025-12-25 04:34:32,622 account.utils API Success
+WARNING 2025-12-25 05:25:26,347 django.request Not Found: //chat
+WARNING 2025-12-25 05:25:26,347 django.request Not Found: //chat
+INFO 2025-12-25 10:28:40,169 account.utils API Success
+INFO 2025-12-25 10:28:52,511 unit.views RegisterUnit deleted
+INFO 2025-12-25 10:28:52,511 account.utils API Success
+INFO 2025-12-25 10:38:42,252 account.utils API Success
+ERROR 2025-12-25 10:45:18,315 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:45:18,315 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:46:02,962 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:46:02,962 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:47:59,478 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:47:59,478 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(message="Validation errors", data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:49:13,432 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 10:49:13,432 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 197, in patch
+    return error_response(data=serializer.errors, status_code=400)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 11:00:01,969 account.utils API Error
+WARNING 2025-12-25 11:00:02,019 django.request Bad Request: /v1/account/users/8/update/
+WARNING 2025-12-25 11:00:02,019 django.request Bad Request: /v1/account/users/8/update/
+ERROR 2025-12-25 11:04:23,792 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 199, in patch
+    return error_response(
+           ^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 11:04:23,792 django.request Internal Server Error: /v1/account/users/8/update/
+Traceback (most recent call last):
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 489, in thread_handler
+    raise exc_info[1]
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 439, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/asgiref/sync.py", line 493, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/env/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/abrah/OneDrive/official_projects/j4corp/account/views.py", line 199, in patch
+    return error_response(
+           ^^^^^^^^^^^^^^^
+TypeError: error_response() got an unexpected keyword argument 'data'
+ERROR 2025-12-25 11:04:49,262 account.utils API Error
+WARNING 2025-12-25 11:04:49,312 django.request Bad Request: /v1/account/users/8/update/
+WARNING 2025-12-25 11:04:49,312 django.request Bad Request: /v1/account/users/8/update/
+ERROR 2025-12-25 11:06:53,051 account.utils API Error
+WARNING 2025-12-25 11:06:53,100 django.request Bad Request: /v1/account/users/8/update/
+WARNING 2025-12-25 11:06:53,100 django.request Bad Request: /v1/account/users/8/update/
+ERROR 2025-12-25 11:22:34,576 account.utils API Error
+WARNING 2025-12-25 11:22:34,633 django.request Bad Request: /v1/account/users/8/update/
+WARNING 2025-12-25 11:22:34,633 django.request Bad Request: /v1/account/users/8/update/
+ERROR 2025-12-25 11:22:46,162 account.utils API Error
+WARNING 2025-12-25 11:22:46,214 django.request Bad Request: /v1/account/users/8/update/
+WARNING 2025-12-25 11:22:46,214 django.request Bad Request: /v1/account/users/8/update/
+INFO 2025-12-25 11:22:58,298 account.utils API Success
+INFO 2025-12-25 11:22:58,836 account.utils API Success
+INFO 2025-12-25 11:23:20,160 account.utils API Success
+INFO 2025-12-25 11:23:20,727 account.utils API Success
+INFO 2025-12-25 11:24:54,014 chatapp WS connected: user=8 room=3
+INFO 2025-12-25 11:41:34,055 chatapp WS connected: user=1 room=3
+INFO 2025-12-25 11:44:25,417 chatapp WS disconnected: user=8 room=3
+INFO 2025-12-25 11:44:26,941 account.utils API Success
+INFO 2025-12-25 11:44:27,358 account.utils API Success
+INFO 2025-12-25 11:44:27,547 account.utils API Success
+INFO 2025-12-25 11:44:27,968 account.utils API Success
+INFO 2025-12-25 11:44:28,084 account.utils API Success
+INFO 2025-12-25 11:44:28,533 account.utils API Success
+INFO 2025-12-25 11:44:28,618 account.utils API Success
+INFO 2025-12-25 11:44:29,062 account.utils API Success
+INFO 2025-12-25 11:44:29,179 account.utils API Success
+INFO 2025-12-25 11:44:30,844 account.utils API Success
+INFO 2025-12-25 11:44:31,381 account.utils API Success
+INFO 2025-12-25 11:44:40,517 account.utils API Success
+INFO 2025-12-25 11:44:52,790 account.utils OTP email sent to wasiul0491@gmail.com
+INFO 2025-12-25 11:44:52,790 account.utils API Success
+INFO 2025-12-25 11:45:03,040 account.utils API Success
+INFO 2025-12-25 11:45:05,460 account.utils API Success
+INFO 2025-12-25 11:45:30,271 account.utils API Success
+INFO 2025-12-25 11:45:39,284 account.utils API Success
+INFO 2025-12-25 11:45:51,281 account.utils API Success
+INFO 2025-12-25 11:46:03,849 account.utils API Success
+INFO 2025-12-25 11:48:06,169 account.utils API Success
+INFO 2025-12-25 11:48:11,186 account.utils API Success
+INFO 2025-12-25 11:48:37,969 account.utils API Success
+INFO 2025-12-25 11:52:26,752 account.utils API Success
+ERROR 2025-12-25 11:52:41,046 account.utils API Error
+WARNING 2025-12-25 11:52:41,096 django.request Bad Request: /v1/account/users/8/update/
+WARNING 2025-12-25 11:52:41,096 django.request Bad Request: /v1/account/users/8/update/
+INFO 2025-12-25 11:53:00,149 account.utils API Success
+INFO 2025-12-25 11:53:21,368 account.utils API Success
+INFO 2025-12-25 11:53:34,851 account.utils API Success
+INFO 2025-12-25 11:53:35,357 account.utils API Success
+INFO 2025-12-25 11:53:39,741 account.utils API Success
+WARNING 2025-12-25 11:55:34,033 django.request Unauthorized: /v1/dashboard/user/8/
+WARNING 2025-12-25 11:55:34,033 django.request Unauthorized: /v1/dashboard/user/8/
+INFO 2025-12-25 11:55:38,386 account.utils API Success
+INFO 2025-12-25 11:55:39,822 account.utils API Success
+INFO 2025-12-25 11:55:40,014 account.utils API Success
+INFO 2025-12-25 11:55:52,778 account.utils API Success
+INFO 2025-12-25 11:55:58,673 account.utils API Success
+INFO 2025-12-25 11:56:18,330 account.utils API Success
+INFO 2025-12-25 11:56:18,912 account.utils API Success
+INFO 2025-12-25 11:56:38,416 account.utils API Success
+INFO 2025-12-25 11:56:39,015 account.utils API Success
+INFO 2025-12-25 11:57:31,677 account.utils API Success
+INFO 2025-12-25 11:57:32,244 account.utils API Success
+INFO 2025-12-25 11:58:30,746 account.utils API Success
+INFO 2025-12-25 11:58:30,926 account.utils API Success
+INFO 2025-12-25 11:58:45,525 account.utils API Success
+INFO 2025-12-25 11:58:46,839 account.utils API Success
+INFO 2025-12-25 11:59:19,788 account.utils API Success
+INFO 2025-12-25 11:59:27,560 account.utils API Success
+INFO 2025-12-25 12:02:11,303 account.utils API Success
+INFO 2025-12-25 12:02:20,385 account.utils API Success
+INFO 2025-12-25 12:02:20,940 account.utils API Success
+INFO 2025-12-25 12:02:21,470 account.utils API Success
+INFO 2025-12-25 12:02:22,022 account.utils API Success
+INFO 2025-12-25 12:02:22,560 account.utils API Success
+INFO 2025-12-25 12:02:23,092 account.utils API Success
+INFO 2025-12-25 12:02:23,626 account.utils API Success
+INFO 2025-12-25 12:02:24,156 account.utils API Success
+INFO 2025-12-25 12:02:25,618 account.utils API Success
+INFO 2025-12-25 12:02:26,162 account.utils API Success
+INFO 2025-12-25 12:02:26,682 account.utils API Success
+INFO 2025-12-25 12:02:27,272 account.utils API Success
+INFO 2025-12-25 12:02:27,853 account.utils API Success
+INFO 2025-12-25 12:02:28,430 account.utils API Success
+INFO 2025-12-25 12:02:29,008 account.utils API Success
+INFO 2025-12-25 12:02:29,563 account.utils API Success
+INFO 2025-12-25 12:02:30,125 account.utils API Success
+INFO 2025-12-25 12:02:30,658 account.utils API Success
+INFO 2025-12-25 12:02:31,205 account.utils API Success
+INFO 2025-12-25 12:02:31,802 account.utils API Success
+INFO 2025-12-25 12:02:32,352 account.utils API Success
+INFO 2025-12-25 12:03:17,872 account.utils API Success
+INFO 2025-12-25 12:03:23,978 unit.views RegisterUnit created
+INFO 2025-12-25 12:03:23,979 account.utils API Success
+INFO 2025-12-25 12:03:31,337 account.utils API Success
+INFO 2025-12-25 12:03:47,414 unit.views RegisterUnit updated
+INFO 2025-12-25 12:03:47,415 account.utils API Success
+INFO 2025-12-25 12:03:52,220 account.utils API Success
+INFO 2025-12-25 12:05:33,622 unit.views RegisterUnit updated
+INFO 2025-12-25 12:05:33,623 account.utils API Success
+INFO 2025-12-25 12:05:43,547 account.utils API Success
+INFO 2025-12-25 12:05:55,359 account.utils API Success
+INFO 2025-12-25 12:05:58,411 account.utils API Success
+INFO 2025-12-25 12:06:21,465 account.utils API Success
+INFO 2025-12-25 12:06:29,401 account.utils API Success
+INFO 2025-12-25 12:06:29,968 account.utils API Success
+INFO 2025-12-25 12:06:37,489 account.utils API Success
+INFO 2025-12-25 12:06:43,398 account.utils API Success
+INFO 2025-12-25 12:06:51,358 account.utils API Success
+INFO 2025-12-25 12:07:07,875 account.utils API Success
+INFO 2025-12-25 12:07:20,286 unit.views RegisterUnit updated
+INFO 2025-12-25 12:07:20,286 account.utils API Success
+INFO 2025-12-25 12:07:28,414 account.utils API Success
+INFO 2025-12-25 12:07:32,297 account.utils API Success
+INFO 2025-12-25 12:07:35,121 account.utils API Success
+INFO 2025-12-25 12:07:48,261 chatapp WS disconnected: user=1 room=3
+INFO 2025-12-25 12:08:44,628 account.utils API Success
+INFO 2025-12-25 12:08:46,733 account.utils API Success
+INFO 2025-12-25 12:09:01,612 unit.views RegisterUnit updated
+INFO 2025-12-25 12:09:01,612 account.utils API Success
+INFO 2025-12-25 12:09:05,686 account.utils API Success
+INFO 2025-12-25 12:09:11,040 account.utils API Success
+INFO 2025-12-25 12:09:13,192 account.utils API Success
+INFO 2025-12-26 04:13:30,189 account.utils API Success
+INFO 2025-12-26 04:44:45,527 account.utils API Success
+INFO 2025-12-26 11:09:02,209 account.utils API Success
+INFO 2025-12-26 11:28:32,251 account.utils API Success
+INFO 2025-12-26 11:29:57,877 account.utils OTP email sent to sakif049@gmail.com
+INFO 2025-12-26 11:29:57,926 account.utils API Success
+INFO 2025-12-26 11:30:22,288 account.utils API Success
+INFO 2025-12-26 11:31:50,132 unit.views RegisterUnit created
+INFO 2025-12-26 11:31:50,133 account.utils API Success
+WARNING 2025-12-26 11:31:50,273 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:31:50,273 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:32:00,924 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:32:00,924 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:32:01,267 account.utils API Success
+INFO 2025-12-26 11:32:15,473 unit.views RegisterUnit updated
+INFO 2025-12-26 11:32:15,475 account.utils API Success
+WARNING 2025-12-26 11:32:19,836 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:32:19,836 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:32:59,860 account.utils API Success
+INFO 2025-12-26 11:33:14,773 account.utils API Success
+INFO 2025-12-26 11:33:53,144 account.utils API Success
+INFO 2025-12-26 11:34:00,683 account.utils API Success
+WARNING 2025-12-26 11:34:07,132 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:34:07,132 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:34:08,564 account.utils API Success
+WARNING 2025-12-26 11:34:13,413 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:34:13,413 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:34:28,816 account.utils API Success
+INFO 2025-12-26 11:34:48,377 account.utils API Success
+INFO 2025-12-26 11:35:53,848 unit.views SellUnit created with ID: 14 by User: 9
+INFO 2025-12-26 11:35:53,853 account.utils API Success
+WARNING 2025-12-26 11:35:57,836 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:35:57,836 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:36:00,499 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:36:00,499 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:37:56,141 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:37:56,141 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:38:57,128 account.utils API Success
+WARNING 2025-12-26 11:38:58,926 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:38:58,926 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:39:05,339 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:39:05,339 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:39:05,431 account.utils API Success
+INFO 2025-12-26 11:39:58,817 unit.views RegisterUnit updated
+INFO 2025-12-26 11:39:58,819 account.utils API Success
+WARNING 2025-12-26 11:43:33,243 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:43:33,243 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:43:35,604 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:43:35,604 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:43:36,042 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:43:36,042 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:43:41,198 account.utils API Success
+INFO 2025-12-26 11:43:41,813 account.utils API Success
+WARNING 2025-12-26 11:43:41,837 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:43:41,837 django.request Not Found: /media/profile/profile.png
+INFO 2025-12-26 11:45:46,845 account.utils API Success
+INFO 2025-12-26 11:48:52,113 account.utils API Success
+WARNING 2025-12-26 11:48:56,783 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:48:56,783 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:48:58,133 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:48:58,133 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:49:09,270 django.request Not Found: /media/profile/profile.png
+WARNING 2025-12-26 11:49:09,270 django.request Not Found: /media/profile/profile.png
